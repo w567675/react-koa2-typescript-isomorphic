@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "jsx": "react",
+        "lib": [
+            "es2015"
+        ],
+        "baseUrl": "."
+        // "paths": {
+        //     "*": [
+        //         "node_modules/*",
+        //         "src/typings/*"
+        //     ]
+        // }
+    },
+    "include": [
+        "src/server/**/*"
+    ]
+}
