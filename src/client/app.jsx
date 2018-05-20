@@ -4,7 +4,6 @@ import Loadable from 'react-loadable';
 import { hot } from 'react-hot-loader';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-
 const loading = ({ error, pastDelay, retry }) => {
     if (error) {
         return <div>Error! <button onClick={retry}>Retry</button></div>;

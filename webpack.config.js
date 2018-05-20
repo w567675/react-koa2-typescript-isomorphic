@@ -9,7 +9,14 @@ module.exports = {
 			loader: 'babel-loader',
 			options: {
 				presets: ['env', 'react'],
-				plugins: ['syntax-dynamic-import', 'react-hot-loader/babel']
+				plugins: [
+					'syntax-dynamic-import',
+					'react-hot-loader/babel',
+					["transform-runtime", {
+						"polyfill": false,
+						"regenerator": true
+					}]
+				]
 			}
 		}, {
 			test: /\.css$/,
@@ -20,14 +27,17 @@ module.exports = {
 		}]
 	},
 	resolve: {
-		extensions: ['.js', '.jsx', ],
+		extensions: ['.js', '.jsx',],
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
 			title: 'test',
 			template: 'src/template/index.html',
 		}),
-		new MiniCssExtractPlugin(),
+		new MiniCssExtractPlugin({
+			filename: "[name].[chunkhash].css",
+			chunkFilename: "[id].[chunkhash].css"
+		}),
 	],
 	optimization: {
 		runtimeChunk: {
@@ -40,6 +50,18 @@ module.exports = {
 					name: "vendors",
 					priority: -20,
 					chunks: "all"
+				},
+				// styles: {
+				// 	name: 'styles',
+				// 	test: /\.css$/,
+				// 	chunks: 'all',
+				// 	minChunks: 2,
+				// },
+				styles: {
+					test: /\.css$/,
+					chunks: 'all',
+					minChunks: 2,
+					enforce: true
 				}
 			}
 		}
@@ -48,9 +70,10 @@ module.exports = {
 		index: './src/client/index.jsx',
 	},
 	output: {
-		filename: '[name].[chunkhash].js',
-		chunkFilename: "[name].[chunkhash].js",
+		filename: '[name].[hash].js',
+		chunkFilename: '[name].[hash].js',
 		path: path.resolve(__dirname, 'dist')
 	},
+	devtool: 'cheap-module-eval-source-map',
 	mode: 'development'
 }
