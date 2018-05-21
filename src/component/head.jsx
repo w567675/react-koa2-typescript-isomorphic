@@ -1,5 +1,7 @@
 import React from 'react';
 import './head.css'
-export default () => {
+export default (props) => {
+    
+    console.log(props)
     return <div className="head">head</div>
 }

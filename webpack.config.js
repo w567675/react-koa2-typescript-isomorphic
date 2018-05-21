@@ -8,12 +8,12 @@ module.exports = {
 			exclude: /node_modules/,
 			loader: 'babel-loader',
 			options: {
-				presets: ['env', 'react'],
+				presets: ['env', 'react', 'stage-0'],
 				plugins: [
 					'syntax-dynamic-import',
 					'react-hot-loader/babel',
 					["transform-runtime", {
-						"polyfill": false,
+						"polyfill": true,
 						"regenerator": true
 					}]
 				]

@@ -1,19 +1,44 @@
 
-import App from './app';
-import Home from './home';
-import About from './about';
+import Loadable from 'react-loadable';
+
+
+const loading = ({ error, pastDelay, retry }) => {
+    if (error) {
+        return <div>Error! <button onClick={retry}>Retry</button></div>;
+    } else if (pastDelay) {
+        return <div>Loading...</div>;
+    } else {
+        return null;
+    }
+    return <div>loading</div>
+}
+const Main = Loadable({
+    loader: () => import('./main'),
+    loading,
+})
+const Home = Loadable({
+    loader: () => import('./home'),
+    loading,
+});
+
+const About = Loadable({
+    loader: () => import('./about'),
+    loading,
+});
+
 const routes = [
     {
-        component: App,
+        component: Main,
+        path: '/',
+        exact: true,
         routes: [
             {
-                path: '/',
-                exact: true,
+                path: '/home',
                 component: Home,
                 loadData: () => 1,
             },
             {
-                path: '/child/:id',
+                path: '/about',
                 component: About,
                 routes: [
                     {
