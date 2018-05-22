@@ -2,21 +2,10 @@ import React from 'react';
 import { render } from 'react-dom';
 import { hot } from 'react-hot-loader';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Provider from '../component/provider';
-import createBrowserHistory from 'history/createBrowserHistory';
-import { ConnectedRouter, routerReducer, routerMiddleware } from 'react-router-redux';
-import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { renderRoutes } from 'react-router-config';
 import routes from './routes';
 
-const history = createBrowserHistory();
-const middleware = routerMiddleware(history);
-const store = createStore(
-    combineReducers({
-        router: routerReducer,
-    }),
-    applyMiddleware(middleware)
-);
+
 
 // const loading = ({ error, pastDelay, retry }) => {
 //     if (error) {
@@ -43,20 +32,18 @@ const store = createStore(
 
 const App = () => {
     return (
-        <Provider store={store}>
-            <ConnectedRouter history={history}>
-                <Router>
-                    <div>
-                        <ul>
-                            <li><Link to="/">index</Link></li>
-                            <li><Link to="/home/111">home</Link></li>
-                            <li><Link to="/about">About</Link></li>
-                        </ul>
-                        {renderRoutes(routes)}
-                    </div>
-                </Router>
-            </ConnectedRouter>
-        </Provider>
+        <Router>
+            <div>
+                <ul>
+                    <li><Link to="/">index</Link></li>
+                    <li><Link to="/home">home</Link></li>
+                    <li><Link to="/child/12">child</Link></li>
+                    <li><Link to="/child/12/grand-child">grandChild</Link></li>
+                    <li><Link to="/child/12/grand-child2">child</Link></li>
+                </ul>
+                {renderRoutes(routes)}
+            </div>
+        </Router>
     )
 }
 
