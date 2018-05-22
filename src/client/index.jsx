@@ -5,6 +5,10 @@ import createBrowserHistory from 'history/createBrowserHistory';
 import { ConnectedRouter, routerReducer, routerMiddleware } from 'react-router-redux';
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import App from './app';
+import createBrowserHistory from 'history/createBrowserHistory';
+import { ConnectedRouter, routerReducer, routerMiddleware } from 'react-router-redux';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import Provider from '../component/provider';
 
 const history = createBrowserHistory();
 const middleware = routerMiddleware(history);

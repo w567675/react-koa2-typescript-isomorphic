@@ -1,7 +1,7 @@
 
 import Loadable from 'react-loadable';
-
-
+import React from 'react';
+import Child from './child';
 const loading = ({ error, pastDelay, retry }) => {
     if (error) {
         return <div>Error! <button onClick={retry}>Retry</button></div>;
@@ -21,8 +21,13 @@ const Home = Loadable({
     loading,
 });
 
-const About = Loadable({
-    loader: () => import('./about'),
+// const Child = Loadable({
+//     loader: () => import('./child'),
+//     loading,
+// });
+
+const GrandChild = Loadable({
+    loader: () => import('./grandChild'),
     loading,
 });
 
@@ -42,15 +47,29 @@ const routes = [
                 exact: true,
             },
             {
-                path: '/about',
-                component: About,
+                path: '/home',
+                component: GrandChild,
+            },
+            {
+                path: '/child/:id',
+                component: Child,
                 routes: [
                     {
                         path: '/about/:id/detail',
                         component: AboutDetail
                     }
                 ]
-            }
+            },
+            // {
+            //     path: '/child/:id/grand-child',
+            //     component: Child,
+            //     routes: [
+            //         {
+            //             path: '',
+            //             component: Home
+            //         }
+            //     ]
+            // }
         ]
     }
 ]
