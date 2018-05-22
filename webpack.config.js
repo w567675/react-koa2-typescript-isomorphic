@@ -1,6 +1,9 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const reactLoadableWebpack = require('react-loadable/webpack');
+
+const ReactLoadablePlugin = reactLoadableWebpack.ReactLoadablePlugin;
 module.exports = {
 	module: {
 		rules: [{
@@ -38,6 +41,9 @@ module.exports = {
 			filename: "[name].[chunkhash].css",
 			chunkFilename: "[id].[chunkhash].css"
 		}),
+		new ReactLoadablePlugin({
+			filename: './dist/react-loadable.json',
+		}),
 	],
 	optimization: {
 		runtimeChunk: {
@@ -72,7 +78,8 @@ module.exports = {
 	output: {
 		filename: '[name].[hash].js',
 		chunkFilename: '[name].[hash].js',
-		path: path.resolve(__dirname, 'dist')
+		path: path.resolve(__dirname, 'dist'),
+		publicPath: '/',
 	},
 	devtool: 'cheap-module-eval-source-map',
 	mode: 'development'

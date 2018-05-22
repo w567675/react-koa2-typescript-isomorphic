@@ -26,24 +26,28 @@ const About = Loadable({
     loading,
 });
 
+const AboutDetail = Loadable({
+    loader: () => import('./aboutDetail'),
+    loading,
+});
+
 const routes = [
     {
         component: Main,
-        path: '/',
-        exact: true,
         routes: [
             {
-                path: '/home',
+                path: '/',
                 component: Home,
                 loadData: () => 1,
+                exact: true,
             },
             {
                 path: '/about',
                 component: About,
                 routes: [
                     {
-                        path: '/child/:id/grand-child',
-                        component: Home
+                        path: '/about/:id/detail',
+                        component: AboutDetail
                     }
                 ]
             }

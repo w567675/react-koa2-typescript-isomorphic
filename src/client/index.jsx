@@ -1,6 +1,26 @@
 import React from 'react';
-import { render } from 'react-dom';
+import { render, hydrate } from 'react-dom';
+import Provider from '../component/provider';
+import createBrowserHistory from 'history/createBrowserHistory';
+import { ConnectedRouter, routerReducer, routerMiddleware } from 'react-router-redux';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
 import App from './app';
 
-render(<App />, document.getElementById('root'))
+const history = createBrowserHistory();
+const middleware = routerMiddleware(history);
+const store = createStore(
+    combineReducers({
+        router: routerReducer,
+    }),
+    applyMiddleware(middleware)
+);
+hydrate(
+    <Provider store={store}>
+        <ConnectedRouter history={history}>
+            <App />
+        </ConnectedRouter>
+    </Provider>
+    ,
+    document.getElementById('root')
+)
 

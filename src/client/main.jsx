@@ -1,7 +1,8 @@
 import React from 'react';
-
-export default (props) => {
+import { renderRoutes } from 'react-router-config';
+export default ({ route }) => {
     return <div>
         main
+        {renderRoutes(route.routes)}
     </div>
 }

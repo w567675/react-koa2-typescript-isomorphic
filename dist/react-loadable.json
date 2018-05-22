@@ -1,0 +1,828 @@
+{
+  "./head.css": [
+    {
+      "id": 95,
+      "name": "./src/component/head.css",
+      "file": "0.23883d086de9be824108.css",
+      "publicPath": "/0.23883d086de9be824108.css"
+    },
+    {
+      "id": 95,
+      "name": "./src/component/head.css",
+      "file": "0.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/0.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "undefined": [
+    {
+      "id": 96,
+      "name": null,
+      "file": "0.23883d086de9be824108.css",
+      "publicPath": "/0.23883d086de9be824108.css"
+    },
+    {
+      "id": 96,
+      "name": null,
+      "file": "0.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/0.fb12e965e1175cf8b0e4.js"
+    },
+    {
+      "id": 71,
+      "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "file": "index.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/index.fb12e965e1175cf8b0e4.js"
+    },
+    {
+      "id": 89,
+      "name": null,
+      "file": "index.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/index.fb12e965e1175cf8b0e4.js"
+    },
+    {
+      "id": 71,
+      "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "file": "7.cd38d192d554b3ef0bc6.hot-update.js",
+      "publicPath": "/7.cd38d192d554b3ef0bc6.hot-update.js"
+    },
+    {
+      "id": 89,
+      "name": null,
+      "file": "7.cd38d192d554b3ef0bc6.hot-update.js",
+      "publicPath": "/7.cd38d192d554b3ef0bc6.hot-update.js"
+    }
+  ],
+  "./aboutDetail": [
+    {
+      "id": 90,
+      "name": "./src/client/aboutDetail.jsx",
+      "file": "1.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/1.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./about": [
+    {
+      "id": 91,
+      "name": "./src/client/about.jsx",
+      "file": "2.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/2.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "../component/head": [
+    {
+      "id": 94,
+      "name": "./src/component/head.jsx",
+      "file": "2.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/2.fb12e965e1175cf8b0e4.js"
+    },
+    {
+      "id": 94,
+      "name": "./src/component/head.jsx",
+      "file": "3.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/3.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./home": [
+    {
+      "id": 92,
+      "name": "./src/client/home.jsx",
+      "file": "3.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/3.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./main": [
+    {
+      "id": 93,
+      "name": "./src/client/main.jsx",
+      "file": "4.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/4.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "prop-types": [
+    {
+      "id": 0,
+      "name": "./node_modules/prop-types/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react": [
+    {
+      "id": 1,
+      "name": "./node_modules/react/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "warning": [
+    {
+      "id": 2,
+      "name": "./node_modules/warning/browser.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "invariant": [
+    {
+      "id": 3,
+      "name": "./node_modules/invariant/browser.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-hot-loader": [
+    {
+      "id": 4,
+      "name": "./node_modules/react-hot-loader/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./PathUtils": [
+    {
+      "id": 5,
+      "name": "./node_modules/history/PathUtils.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./matchPath": [
+    {
+      "id": 6,
+      "name": "./node_modules/react-router/es/matchPath.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./Router": [
+    {
+      "id": 7,
+      "name": "./node_modules/react-router/es/Router.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./Route": [
+    {
+      "id": 8,
+      "name": "./node_modules/react-router/es/Route.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "lodash-es/isPlainObject": [
+    {
+      "id": 9,
+      "name": "./node_modules/lodash-es/isPlainObject.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./../webpack/buildin/module.js": [
+    {
+      "id": 10,
+      "name": "./node_modules/webpack/buildin/module.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-router/matchPath": [
+    {
+      "id": 11,
+      "name": "./node_modules/react-router/matchPath.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "fbjs/lib/emptyFunction": [
+    {
+      "id": 12,
+      "name": "./node_modules/fbjs/lib/emptyFunction.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./../webpack/buildin/global.js": [
+    {
+      "id": 13,
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./Redirect": [
+    {
+      "id": 14,
+      "name": "./node_modules/react-router/es/Redirect.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./withRouter": [
+    {
+      "id": 15,
+      "name": "./node_modules/react-router/es/withRouter.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./Switch": [
+    {
+      "id": 16,
+      "name": "./node_modules/react-router/es/Switch.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./StaticRouter": [
+    {
+      "id": 17,
+      "name": "./node_modules/react-router/es/StaticRouter.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./Prompt": [
+    {
+      "id": 18,
+      "name": "./node_modules/react-router/es/Prompt.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./MemoryRouter": [
+    {
+      "id": 19,
+      "name": "./node_modules/react-router/es/MemoryRouter.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "hoist-non-react-statics": [
+    {
+      "id": 20,
+      "name": "./node_modules/hoist-non-react-statics/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./createTransitionManager": [
+    {
+      "id": 21,
+      "name": "./node_modules/history/createTransitionManager.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./LocationUtils": [
+    {
+      "id": 22,
+      "name": "./node_modules/history/LocationUtils.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./log": [
+    {
+      "id": 23,
+      "name": "./node_modules/webpack/hot/log.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "redux": [
+    {
+      "id": 24,
+      "name": "./node_modules/redux/es/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "path-to-regexp": [
+    {
+      "id": 25,
+      "name": "./node_modules/path-to-regexp/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "value-equal": [
+    {
+      "id": 26,
+      "name": "./node_modules/value-equal/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "resolve-pathname": [
+    {
+      "id": 27,
+      "name": "./node_modules/resolve-pathname/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "history/createBrowserHistory": [
+    {
+      "id": 28,
+      "name": "./node_modules/history/createBrowserHistory.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "symbol-observable": [
+    {
+      "id": 29,
+      "name": "./node_modules/symbol-observable/es/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./DOMUtils": [
+    {
+      "id": 30,
+      "name": "./node_modules/history/DOMUtils.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "fbjs/lib/emptyObject": [
+    {
+      "id": 31,
+      "name": "./node_modules/fbjs/lib/emptyObject.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "object-assign": [
+    {
+      "id": 32,
+      "name": "./node_modules/object-assign/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "webpack/hot/emitter": [
+    {
+      "id": 33,
+      "name": "./node_modules/webpack/hot/emitter.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./lib/html5-entities.js": [
+    {
+      "id": 34,
+      "name": "./node_modules/html-entities/lib/html5-entities.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-router/Route": [
+    {
+      "id": 35,
+      "name": "./node_modules/react-router/Route.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-router/Switch": [
+    {
+      "id": 36,
+      "name": "./node_modules/react-router/Switch.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-router/Router": [
+    {
+      "id": 37,
+      "name": "./node_modules/react-router/Router.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "history/createHashHistory": [
+    {
+      "id": 38,
+      "name": "./node_modules/history/createHashHistory.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "history/createMemoryHistory": [
+    {
+      "id": 39,
+      "name": "./node_modules/history/createMemoryHistory.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./ponyfill.js": [
+    {
+      "id": 40,
+      "name": "./node_modules/symbol-observable/es/ponyfill.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./_freeGlobal.js": [
+    {
+      "id": 41,
+      "name": "./node_modules/lodash-es/_freeGlobal.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-router-config": [
+    {
+      "id": 42,
+      "name": "./node_modules/react-router-config/es/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-router-dom": [
+    {
+      "id": 43,
+      "name": "./node_modules/react-router-dom/es/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-router-redux": [
+    {
+      "id": 44,
+      "name": "./node_modules/react-router-redux/es/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-redux": [
+    {
+      "id": 45,
+      "name": "./node_modules/react-redux/es/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-loadable": [
+    {
+      "id": 46,
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "isarray": [
+    {
+      "id": 49,
+      "name": "./node_modules/path-to-regexp/node_modules/isarray/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./dist/react-hot-loader.production.min.js": [
+    {
+      "id": 50,
+      "name": "./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./../../webpack/buildin/harmony-module.js": [
+    {
+      "id": 51,
+      "name": "./node_modules/webpack/buildin/harmony-module.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./lib/ReactPropTypesSecret": [
+    {
+      "id": 52,
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "fbjs/lib/invariant": [
+    {
+      "id": 53,
+      "name": "./node_modules/fbjs/lib/invariant.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./factoryWithThrowingShims": [
+    {
+      "id": 54,
+      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "fbjs/lib/focusNode": [
+    {
+      "id": 56,
+      "name": "./node_modules/fbjs/lib/focusNode.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./isNode": [
+    {
+      "id": 57,
+      "name": "./node_modules/fbjs/lib/isNode.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./isTextNode": [
+    {
+      "id": 58,
+      "name": "./node_modules/fbjs/lib/isTextNode.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "fbjs/lib/containsNode": [
+    {
+      "id": 59,
+      "name": "./node_modules/fbjs/lib/containsNode.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "fbjs/lib/shallowEqual": [
+    {
+      "id": 60,
+      "name": "./node_modules/fbjs/lib/shallowEqual.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "fbjs/lib/getActiveElement": [
+    {
+      "id": 61,
+      "name": "./node_modules/fbjs/lib/getActiveElement.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "fbjs/lib/EventListener": [
+    {
+      "id": 62,
+      "name": "./node_modules/fbjs/lib/EventListener.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "fbjs/lib/ExecutionEnvironment": [
+    {
+      "id": 63,
+      "name": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./cjs/react-dom.production.min.js": [
+    {
+      "id": 64,
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "react-dom": [
+    {
+      "id": 65,
+      "name": "./node_modules/react-dom/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./cjs/react.production.min.js": [
+    {
+      "id": 66,
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./log-apply-result": [
+    {
+      "id": 68,
+      "name": "./node_modules/webpack/hot/log-apply-result.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "webpack/hot/dev-server": [
+    {
+      "id": 69,
+      "name": "./node_modules/webpack/hot/dev-server.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "events": [
+    {
+      "id": 70,
+      "name": "./node_modules/events/events.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./lib/html4-entities.js": [
+    {
+      "id": 72,
+      "name": "./node_modules/html-entities/lib/html4-entities.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./lib/xml-entities.js": [
+    {
+      "id": 73,
+      "name": "./node_modules/html-entities/lib/xml-entities.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "html-entities": [
+    {
+      "id": 74,
+      "name": "./node_modules/html-entities/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "ansi-html": [
+    {
+      "id": 75,
+      "name": "./node_modules/ansi-html/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./overlay": [
+    {
+      "id": 76,
+      "name": "./node_modules/webpack-dev-server/client/overlay.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "sockjs-client/dist/sockjs": [
+    {
+      "id": 77,
+      "name": "./node_modules/sockjs-client/dist/sockjs.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./socket": [
+    {
+      "id": 78,
+      "name": "./node_modules/webpack-dev-server/client/socket.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "loglevel": [
+    {
+      "id": 79,
+      "name": "./node_modules/loglevel/lib/loglevel.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "ansi-regex": [
+    {
+      "id": 80,
+      "name": "./node_modules/ansi-regex/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "strip-ansi": [
+    {
+      "id": 81,
+      "name": "./node_modules/strip-ansi/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./encode": [
+    {
+      "id": 82,
+      "name": "./node_modules/querystring-es3/encode.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./decode": [
+    {
+      "id": 83,
+      "name": "./node_modules/querystring-es3/decode.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "querystring": [
+    {
+      "id": 84,
+      "name": "./node_modules/querystring-es3/index.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./util": [
+    {
+      "id": 85,
+      "name": "./node_modules/url/util.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "punycode": [
+    {
+      "id": 86,
+      "name": "./node_modules/punycode/punycode.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "url": [
+    {
+      "id": 87,
+      "name": "./node_modules/url/url.js",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "E:\\code\\github\\react-koa2-typescript-isomorphic\\node_modules\\webpack-dev-server\\client\\index.js?http://localhost:8080": [
+    {
+      "id": 88,
+      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:8080",
+      "file": "vendors.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/vendors.fb12e965e1175cf8b0e4.js"
+    }
+  ],
+  "./routes": [
+    {
+      "id": 47,
+      "name": "./src/client/routes.js",
+      "file": "index.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/index.fb12e965e1175cf8b0e4.js"
+    },
+    {
+      "id": 47,
+      "name": "./src/client/routes.js",
+      "file": "7.cd38d192d554b3ef0bc6.hot-update.js",
+      "publicPath": "/7.cd38d192d554b3ef0bc6.hot-update.js"
+    }
+  ],
+  "./app": [
+    {
+      "id": 48,
+      "name": "./src/client/app.jsx",
+      "file": "index.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/index.fb12e965e1175cf8b0e4.js"
+    },
+    {
+      "id": 48,
+      "name": "./src/client/app.jsx",
+      "file": "7.cd38d192d554b3ef0bc6.hot-update.js",
+      "publicPath": "/7.cd38d192d554b3ef0bc6.hot-update.js"
+    }
+  ],
+  "../component/provider": [
+    {
+      "id": 55,
+      "name": "./src/component/provider.jsx",
+      "file": "index.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/index.fb12e965e1175cf8b0e4.js"
+    },
+    {
+      "id": 55,
+      "name": "./src/component/provider.jsx",
+      "file": "7.cd38d192d554b3ef0bc6.hot-update.js",
+      "publicPath": "/7.cd38d192d554b3ef0bc6.hot-update.js"
+    }
+  ],
+  "./src/client/index.jsx": [
+    {
+      "id": 67,
+      "name": "./src/client/index.jsx",
+      "file": "index.fb12e965e1175cf8b0e4.js",
+      "publicPath": "/index.fb12e965e1175cf8b0e4.js"
+    },
+    {
+      "id": 67,
+      "name": "./src/client/index.jsx",
+      "file": "7.cd38d192d554b3ef0bc6.hot-update.js",
+      "publicPath": "/7.cd38d192d554b3ef0bc6.hot-update.js"
+    }
+  ]
+}
