@@ -1,9 +1,5 @@
 import React from 'react';
 import { render, hydrate } from 'react-dom';
-import Provider from '../component/provider';
-import createBrowserHistory from 'history/createBrowserHistory';
-import { ConnectedRouter, routerReducer, routerMiddleware } from 'react-router-redux';
-import { createStore, combineReducers, applyMiddleware } from 'redux';
 import App from './app';
 import createBrowserHistory from 'history/createBrowserHistory';
 import { ConnectedRouter, routerReducer, routerMiddleware } from 'react-router-redux';

@@ -1,0 +1,14 @@
+{
+  "javascript": {
+    "index": "/index.3be2e126077e1bf179c3.js",
+    "manifest": "/manifest.3be2e126077e1bf179c3.js",
+    "vendors": "/vendors.3be2e126077e1bf179c3.js"
+  },
+  "styles": {},
+  "assets": {
+    "./src/static/test.jpg": "/e4ba37e756254d56c4c1fd8d8184ab4d.jpg"
+  },
+  "webpack": {
+    "version": "4.8.3"
+  }
+}

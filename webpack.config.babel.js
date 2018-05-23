@@ -1,33 +1,39 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const reactLoadableWebpack = require('react-loadable/webpack');
+import path from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import { ReactLoadablePlugin } from 'react-loadable/webpack';
+import WebpackisomorphicToolsPlugin from 'webpack-isomorphic-tools/plugin';
+import webpackIsomorphicToolsConfig from './webpack/webpack-isomorphic-tools-config';
 
-const ReactLoadablePlugin = reactLoadableWebpack.ReactLoadablePlugin;
-module.exports = {
+const webpackisomorphicToolsPlugin = new WebpackisomorphicToolsPlugin(webpackIsomorphicToolsConfig)
+
+export default {
 	module: {
-		rules: [{
-			test: /\.jsx?$/,
-			exclude: /node_modules/,
-			loader: 'babel-loader',
-			options: {
-				presets: ['env', 'react', 'stage-0'],
-				plugins: [
-					'syntax-dynamic-import',
-					'react-hot-loader/babel',
-					["transform-runtime", {
-						"polyfill": true,
-						"regenerator": true
-					}]
+		rules: [
+			{
+				test: /\.jsx?$/,
+				exclude: /node_modules/,
+				loader: 'babel-loader',
+				options: {
+
+				}
+			},
+			{
+				test: /\.css$/,
+				use: [
+					MiniCssExtractPlugin.loader,
+					'css-loader',
 				]
-			}
-		}, {
-			test: /\.css$/,
-			use: [
-				MiniCssExtractPlugin.loader,
-				'css-loader',
-			]
-		}]
+			},
+			{
+				test: /\.(jpeg|jpg|png|gif)$/,
+				loader: 'url-loader',
+				options: {
+					limit: 10240,
+				},
+			},
+
+		],
 	},
 	resolve: {
 		extensions: ['.js', '.jsx',],
@@ -44,6 +50,7 @@ module.exports = {
 		new ReactLoadablePlugin({
 			filename: './dist/react-loadable.json',
 		}),
+		webpackisomorphicToolsPlugin.development(),
 	],
 	optimization: {
 		runtimeChunk: {
