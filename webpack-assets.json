@@ -1,14 +1,1 @@
-{
-  "javascript": {
-    "index": "/index.3be2e126077e1bf179c3.js",
-    "manifest": "/manifest.3be2e126077e1bf179c3.js",
-    "vendors": "/vendors.3be2e126077e1bf179c3.js"
-  },
-  "styles": {},
-  "assets": {
-    "./src/static/test.jpg": "/e4ba37e756254d56c4c1fd8d8184ab4d.jpg"
-  },
-  "webpack": {
-    "version": "4.8.3"
-  }
-}
+{"index":{"js":"/index.90e878e40a41b20c90e5.hot-update.js","css":"/index-2c15d0608d861745b6ae.css"},"manifest":{"js":"/manifest.fee72ec16c0a11156f06.js"},"vendors":{"js":"/vendors.fee72ec16c0a11156f06.js"}}
