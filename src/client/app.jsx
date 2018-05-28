@@ -2,7 +2,7 @@ import React from 'react';
 import { hot } from 'react-hot-loader';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { renderRoutes } from 'react-router-config';
-import routes from '../routes/routes';
+import routes from '../routes';
 import './app.css';
 const App= () => {
     return (

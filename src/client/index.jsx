@@ -4,16 +4,16 @@ import App from './app';
 import createBrowserHistory from 'history/createBrowserHistory';
 import { ConnectedRouter} from 'react-router-redux';
 import Provider from '../component/provider';
-import { ReduxAsyncConnect } from  '../component';
+import createStore from '../redux/createStore';
 import './about.css';
 const history = createBrowserHistory();
 const store = createStore({history});
 render(
     <Provider store={store}>
         <ConnectedRouter history={history}>
-            <ReduxAsyncConnect history={history} location={history.location.pathname} >
+            {/* <ReduxAsyncConnect history={history} location={history.location.pathname} > */}
                 <App />
-            </ReduxAsyncConnect>
+            {/* </ReduxAsyncConnect> */}
         </ConnectedRouter>
     </Provider>
     ,
