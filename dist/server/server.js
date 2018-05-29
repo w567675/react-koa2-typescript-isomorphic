@@ -85,6 +85,72 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./config/index.js":
+/*!*************************!*\
+  !*** ./config/index.js ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+(function () {
+    var enterModule = __webpack_require__(/*! react-hot-loader */ "react-hot-loader").enterModule;
+
+    enterModule && enterModule(module);
+})();
+
+var _default = {
+    assetsPath: '//127.0.0.1:3001'
+};
+exports.default = _default;
+;
+
+(function () {
+    var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "react-hot-loader").default;
+
+    var leaveModule = __webpack_require__(/*! react-hot-loader */ "react-hot-loader").leaveModule;
+
+    if (!reactHotLoader) {
+        return;
+    }
+
+    reactHotLoader.register(_default, 'default', 'D:/zhanghaiyang/works/github/react-koa2-typescript-isomorphic/config/index.js');
+    leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
+/***/ "./dist/react-loadable.json":
+/*!**********************************!*\
+  !*** ./dist/react-loadable.json ***!
+  \**********************************/
+/*! exports provided: ./about.css, undefined, ./app, ../component/provider, ../redux/createStore, ./src/client/index.jsx, ./app.css, ../routes, ../client/main, ../client/home, ../component/head, ../client/about, ../client/aboutDetail, ../static/test.jpg, ./head.css, ansi-html, ansi-regex, events, fast-levenshtein, fbjs/lib/EventListener, fbjs/lib/ExecutionEnvironment, ./camelize, fbjs/lib/camelizeStyleName, fbjs/lib/containsNode, fbjs/lib/emptyFunction, fbjs/lib/emptyObject, fbjs/lib/focusNode, fbjs/lib/getActiveElement, ./hyphenate, fbjs/lib/hyphenateStyleName, fbjs/lib/invariant, ./isNode, ./isTextNode, fbjs/lib/shallowEqual, fbjs/lib/warning, ./DOMUtils, ./LocationUtils, ./PathUtils, history/createBrowserHistory, history/createHashHistory, history/createMemoryHistory, ./createTransitionManager, ./createBrowserHistory, ./createHashHistory, ./createMemoryHistory, history, hoist-non-react-statics, html-entities, ./lib/html4-entities.js, ./lib/html5-entities.js, ./lib/xml-entities.js, invariant, ./_Symbol.js, ./_baseGetTag.js, ./_freeGlobal.js, ./_getPrototype.js, ./_getRawTag.js, ./_objectToString.js, ./_overArg.js, ./_root.js, ./isObjectLike.js, lodash-es/isPlainObject, loglevel, object-assign, path-to-regexp, isarray, prop-types/checkPropTypes, ./factoryWithTypeCheckers, prop-types, ./lib/ReactPropTypesSecret, punycode, ./decode, ./encode, querystring, ./cjs/react-dom.development.js, react-dom, ./dist/react-hot-loader.development.js, react-hot-loader, ./checkPropTypes, react-lifecycles-compat, react-loadable, ./components/Provider, ./components/connectAdvanced, ./connect/connect, ./mapDispatchToProps, ./mapStateToProps, ./mergeProps, ./selectorFactory, ./verifySubselectors, ./wrapMapToProps, react-redux, ../utils/PropTypes, ../utils/Subscription, ../utils/shallowEqual, ../utils/verifyPlainObject, ../utils/warning, react-router-config, ./matchRoutes, ./renderRoutes, ./BrowserRouter, ./HashRouter, ./Link, ./MemoryRouter, ./NavLink, ./Prompt, ./Redirect, ./Route, ./Router, ./StaticRouter, ./Switch, react-router-dom, ./matchPath, ./withRouter, ./ConnectedRouter, ./actions, react-router-redux, ./middleware, ./reducer, ./selectors, react-router/Route, react-router/Router, react-router/Switch, react-router/es/MemoryRouter, react-router/es/Prompt, react-router/es/Redirect, react-router/es/Route, react-router/es/Router, react-router/es/StaticRouter, react-router/es/Switch, react-router, react-router/es/matchPath, react-router/es/withRouter, react-router/matchPath, ./cjs/react.development.js, react, ./applyMiddleware, ./bindActionCreators, ./combineReducers, ./compose, ./createStore, redux, ./utils/warning, resolve-pathname, shallowequal, sockjs-client/dist/sockjs, strip-ansi, symbol-observable, ./ponyfill.js, url, ./util, value-equal, warning, D:\zhanghaiyang\works\github\react-koa2-typescript-isomorphic\node_modules\webpack-dev-server\client\index.js?http://localhost:3001, ./overlay, ./socket, !!webpack amd define, !!webpack amd options, ./../webpack/buildin/global.js, ./../../webpack/buildin/harmony-module.js, ./../../node_modules/webpack/buildin/module.js, webpack/hot/dev-server, ./emitter, ./log-apply-result, ./log, default */
+/***/ (function(module) {
+
+module.exports = {"./about.css":[{"id":"./src/client/about.css","name":"./src/client/about.css","file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":"./src/client/about.css","name":"./src/client/about.css","file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":"./src/client/about.css","name":"./src/client/about.css","file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"}],"undefined":[{"id":0,"name":null,"file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":2,"name":null,"file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":3,"name":null,"file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":"./node_modules/webpack/hot sync ^\\.\\/log$","name":"./node_modules/webpack/hot sync ^\\.\\/log$","file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":0,"name":null,"file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":2,"name":null,"file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":3,"name":null,"file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":"./node_modules/webpack/hot sync ^\\.\\/log$","name":"./node_modules/webpack/hot sync ^\\.\\/log$","file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":0,"name":null,"file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"},{"id":2,"name":null,"file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"},{"id":3,"name":null,"file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"},{"id":"./node_modules/webpack/hot sync ^\\.\\/log$","name":"./node_modules/webpack/hot sync ^\\.\\/log$","file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"},{"id":1,"name":null,"file":"4-e4e95be1eac511926f7e.css","publicPath":"//127.0.0.1:3001/4-e4e95be1eac511926f7e.css"},{"id":1,"name":null,"file":"4.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/4.77296b88a4e72b9b76e4.js"}],"./app":[{"id":"./src/client/app.jsx","name":"./src/client/app.jsx","file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":"./src/client/app.jsx","name":"./src/client/app.jsx","file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":"./src/client/app.jsx","name":"./src/client/app.jsx","file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"}],"../component/provider":[{"id":"./src/component/provider.jsx","name":"./src/component/provider.jsx","file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":"./src/component/provider.jsx","name":"./src/component/provider.jsx","file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":"./src/component/provider.jsx","name":"./src/component/provider.jsx","file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"}],"../redux/createStore":[{"id":"./src/redux/createStore.js","name":"./src/redux/createStore.js","file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":"./src/redux/createStore.js","name":"./src/redux/createStore.js","file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":"./src/redux/createStore.js","name":"./src/redux/createStore.js","file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"}],"./src/client/index.jsx":[{"id":"./src/client/index.jsx","name":"./src/client/index.jsx","file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":"./src/client/index.jsx","name":"./src/client/index.jsx","file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":"./src/client/index.jsx","name":"./src/client/index.jsx","file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"}],"./app.css":[{"id":"./src/client/app.css","name":"./src/client/app.css","file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":"./src/client/app.css","name":"./src/client/app.css","file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":"./src/client/app.css","name":"./src/client/app.css","file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"}],"../routes":[{"id":"./src/routes/index.js","name":"./src/routes/index.js","file":"index-fb17344e13b871b4fbe3.css","publicPath":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"},{"id":"./src/routes/index.js","name":"./src/routes/index.js","file":"index.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js"},{"id":"./src/routes/index.js","name":"./src/routes/index.js","file":"index.5fb9599bde901e327362.hot-update.js","publicPath":"//127.0.0.1:3001/index.5fb9599bde901e327362.hot-update.js"}],"../client/main":[{"id":"./src/client/main.jsx","name":"./src/client/main.jsx","file":"0.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/0.77296b88a4e72b9b76e4.js"}],"../client/home":[{"id":"./src/client/home.jsx","name":"./src/client/home.jsx","file":"1.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/1.77296b88a4e72b9b76e4.js"}],"../component/head":[{"id":"./src/component/head.jsx","name":"./src/component/head.jsx","file":"1.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/1.77296b88a4e72b9b76e4.js"},{"id":"./src/component/head.jsx","name":"./src/component/head.jsx","file":"2.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/2.77296b88a4e72b9b76e4.js"}],"../client/about":[{"id":"./src/client/about.jsx","name":"./src/client/about.jsx","file":"2.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/2.77296b88a4e72b9b76e4.js"}],"../client/aboutDetail":[{"id":"./src/client/aboutDetail.jsx","name":"./src/client/aboutDetail.jsx","file":"3.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/3.77296b88a4e72b9b76e4.js"}],"../static/test.jpg":[{"id":"./src/static/test.jpg","name":"./src/static/test.jpg","file":"3.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/3.77296b88a4e72b9b76e4.js"}],"./head.css":[{"id":"./src/component/head.css","name":"./src/component/head.css","file":"4-e4e95be1eac511926f7e.css","publicPath":"//127.0.0.1:3001/4-e4e95be1eac511926f7e.css"},{"id":"./src/component/head.css","name":"./src/component/head.css","file":"4.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/4.77296b88a4e72b9b76e4.js"}],"ansi-html":[{"id":"./node_modules/ansi-html/index.js","name":"./node_modules/ansi-html/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"ansi-regex":[{"id":"./node_modules/ansi-regex/index.js","name":"./node_modules/ansi-regex/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"events":[{"id":"./node_modules/events/events.js","name":"./node_modules/events/events.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fast-levenshtein":[{"id":"./node_modules/fast-levenshtein/levenshtein.js","name":"./node_modules/fast-levenshtein/levenshtein.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/EventListener":[{"id":"./node_modules/fbjs/lib/EventListener.js","name":"./node_modules/fbjs/lib/EventListener.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/ExecutionEnvironment":[{"id":"./node_modules/fbjs/lib/ExecutionEnvironment.js","name":"./node_modules/fbjs/lib/ExecutionEnvironment.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./camelize":[{"id":"./node_modules/fbjs/lib/camelize.js","name":"./node_modules/fbjs/lib/camelize.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/camelizeStyleName":[{"id":"./node_modules/fbjs/lib/camelizeStyleName.js","name":"./node_modules/fbjs/lib/camelizeStyleName.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/containsNode":[{"id":"./node_modules/fbjs/lib/containsNode.js","name":"./node_modules/fbjs/lib/containsNode.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/emptyFunction":[{"id":"./node_modules/fbjs/lib/emptyFunction.js","name":"./node_modules/fbjs/lib/emptyFunction.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/emptyObject":[{"id":"./node_modules/fbjs/lib/emptyObject.js","name":"./node_modules/fbjs/lib/emptyObject.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/focusNode":[{"id":"./node_modules/fbjs/lib/focusNode.js","name":"./node_modules/fbjs/lib/focusNode.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/getActiveElement":[{"id":"./node_modules/fbjs/lib/getActiveElement.js","name":"./node_modules/fbjs/lib/getActiveElement.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./hyphenate":[{"id":"./node_modules/fbjs/lib/hyphenate.js","name":"./node_modules/fbjs/lib/hyphenate.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/hyphenateStyleName":[{"id":"./node_modules/fbjs/lib/hyphenateStyleName.js","name":"./node_modules/fbjs/lib/hyphenateStyleName.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/invariant":[{"id":"./node_modules/fbjs/lib/invariant.js","name":"./node_modules/fbjs/lib/invariant.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./isNode":[{"id":"./node_modules/fbjs/lib/isNode.js","name":"./node_modules/fbjs/lib/isNode.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./isTextNode":[{"id":"./node_modules/fbjs/lib/isTextNode.js","name":"./node_modules/fbjs/lib/isTextNode.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/shallowEqual":[{"id":"./node_modules/fbjs/lib/shallowEqual.js","name":"./node_modules/fbjs/lib/shallowEqual.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"fbjs/lib/warning":[{"id":"./node_modules/fbjs/lib/warning.js","name":"./node_modules/fbjs/lib/warning.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./DOMUtils":[{"id":"./node_modules/history/DOMUtils.js","name":"./node_modules/history/DOMUtils.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"},{"id":"./node_modules/history/es/DOMUtils.js","name":"./node_modules/history/es/DOMUtils.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./LocationUtils":[{"id":"./node_modules/history/LocationUtils.js","name":"./node_modules/history/LocationUtils.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"},{"id":"./node_modules/history/es/LocationUtils.js","name":"./node_modules/history/es/LocationUtils.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./PathUtils":[{"id":"./node_modules/history/PathUtils.js","name":"./node_modules/history/PathUtils.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"},{"id":"./node_modules/history/es/PathUtils.js","name":"./node_modules/history/es/PathUtils.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"history/createBrowserHistory":[{"id":"./node_modules/history/createBrowserHistory.js","name":"./node_modules/history/createBrowserHistory.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"history/createHashHistory":[{"id":"./node_modules/history/createHashHistory.js","name":"./node_modules/history/createHashHistory.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"history/createMemoryHistory":[{"id":"./node_modules/history/createMemoryHistory.js","name":"./node_modules/history/createMemoryHistory.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./createTransitionManager":[{"id":"./node_modules/history/createTransitionManager.js","name":"./node_modules/history/createTransitionManager.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"},{"id":"./node_modules/history/es/createTransitionManager.js","name":"./node_modules/history/es/createTransitionManager.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./createBrowserHistory":[{"id":"./node_modules/history/es/createBrowserHistory.js","name":"./node_modules/history/es/createBrowserHistory.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./createHashHistory":[{"id":"./node_modules/history/es/createHashHistory.js","name":"./node_modules/history/es/createHashHistory.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./createMemoryHistory":[{"id":"./node_modules/history/es/createMemoryHistory.js","name":"./node_modules/history/es/createMemoryHistory.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"history":[{"id":"./node_modules/history/es/index.js","name":"./node_modules/history/es/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"hoist-non-react-statics":[{"id":"./node_modules/hoist-non-react-statics/index.js","name":"./node_modules/hoist-non-react-statics/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"},{"id":"./node_modules/react-hot-loader/node_modules/hoist-non-react-statics/index.js","name":"./node_modules/react-hot-loader/node_modules/hoist-non-react-statics/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"html-entities":[{"id":"./node_modules/html-entities/index.js","name":"./node_modules/html-entities/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./lib/html4-entities.js":[{"id":"./node_modules/html-entities/lib/html4-entities.js","name":"./node_modules/html-entities/lib/html4-entities.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./lib/html5-entities.js":[{"id":"./node_modules/html-entities/lib/html5-entities.js","name":"./node_modules/html-entities/lib/html5-entities.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./lib/xml-entities.js":[{"id":"./node_modules/html-entities/lib/xml-entities.js","name":"./node_modules/html-entities/lib/xml-entities.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"invariant":[{"id":"./node_modules/invariant/browser.js","name":"./node_modules/invariant/browser.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./_Symbol.js":[{"id":"./node_modules/lodash-es/_Symbol.js","name":"./node_modules/lodash-es/_Symbol.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./_baseGetTag.js":[{"id":"./node_modules/lodash-es/_baseGetTag.js","name":"./node_modules/lodash-es/_baseGetTag.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./_freeGlobal.js":[{"id":"./node_modules/lodash-es/_freeGlobal.js","name":"./node_modules/lodash-es/_freeGlobal.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./_getPrototype.js":[{"id":"./node_modules/lodash-es/_getPrototype.js","name":"./node_modules/lodash-es/_getPrototype.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./_getRawTag.js":[{"id":"./node_modules/lodash-es/_getRawTag.js","name":"./node_modules/lodash-es/_getRawTag.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./_objectToString.js":[{"id":"./node_modules/lodash-es/_objectToString.js","name":"./node_modules/lodash-es/_objectToString.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./_overArg.js":[{"id":"./node_modules/lodash-es/_overArg.js","name":"./node_modules/lodash-es/_overArg.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./_root.js":[{"id":"./node_modules/lodash-es/_root.js","name":"./node_modules/lodash-es/_root.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./isObjectLike.js":[{"id":"./node_modules/lodash-es/isObjectLike.js","name":"./node_modules/lodash-es/isObjectLike.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"lodash-es/isPlainObject":[{"id":"./node_modules/lodash-es/isPlainObject.js","name":"./node_modules/lodash-es/isPlainObject.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"loglevel":[{"id":"./node_modules/loglevel/lib/loglevel.js","name":"./node_modules/loglevel/lib/loglevel.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"object-assign":[{"id":"./node_modules/object-assign/index.js","name":"./node_modules/object-assign/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"path-to-regexp":[{"id":"./node_modules/path-to-regexp/index.js","name":"./node_modules/path-to-regexp/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"isarray":[{"id":"./node_modules/path-to-regexp/node_modules/isarray/index.js","name":"./node_modules/path-to-regexp/node_modules/isarray/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"prop-types/checkPropTypes":[{"id":"./node_modules/prop-types/checkPropTypes.js","name":"./node_modules/prop-types/checkPropTypes.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./factoryWithTypeCheckers":[{"id":"./node_modules/prop-types/factoryWithTypeCheckers.js","name":"./node_modules/prop-types/factoryWithTypeCheckers.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"},{"id":"./node_modules/react-hot-loader/node_modules/prop-types/factoryWithTypeCheckers.js","name":"./node_modules/react-hot-loader/node_modules/prop-types/factoryWithTypeCheckers.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"prop-types":[{"id":"./node_modules/prop-types/index.js","name":"./node_modules/prop-types/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"},{"id":"./node_modules/react-hot-loader/node_modules/prop-types/index.js","name":"./node_modules/react-hot-loader/node_modules/prop-types/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./lib/ReactPropTypesSecret":[{"id":"./node_modules/prop-types/lib/ReactPropTypesSecret.js","name":"./node_modules/prop-types/lib/ReactPropTypesSecret.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"},{"id":"./node_modules/react-hot-loader/node_modules/prop-types/lib/ReactPropTypesSecret.js","name":"./node_modules/react-hot-loader/node_modules/prop-types/lib/ReactPropTypesSecret.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"punycode":[{"id":"./node_modules/punycode/punycode.js","name":"./node_modules/punycode/punycode.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./decode":[{"id":"./node_modules/querystring-es3/decode.js","name":"./node_modules/querystring-es3/decode.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./encode":[{"id":"./node_modules/querystring-es3/encode.js","name":"./node_modules/querystring-es3/encode.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"querystring":[{"id":"./node_modules/querystring-es3/index.js","name":"./node_modules/querystring-es3/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./cjs/react-dom.development.js":[{"id":"./node_modules/react-dom/cjs/react-dom.development.js","name":"./node_modules/react-dom/cjs/react-dom.development.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-dom":[{"id":"./node_modules/react-dom/index.js","name":"./node_modules/react-dom/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./dist/react-hot-loader.development.js":[{"id":"./node_modules/react-hot-loader/dist/react-hot-loader.development.js","name":"./node_modules/react-hot-loader/dist/react-hot-loader.development.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-hot-loader":[{"id":"./node_modules/react-hot-loader/index.js","name":"./node_modules/react-hot-loader/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./checkPropTypes":[{"id":"./node_modules/react-hot-loader/node_modules/prop-types/checkPropTypes.js","name":"./node_modules/react-hot-loader/node_modules/prop-types/checkPropTypes.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-lifecycles-compat":[{"id":"./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","name":"./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-loadable":[{"id":"./node_modules/react-loadable/lib/index.js","name":"./node_modules/react-loadable/lib/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./components/Provider":[{"id":"./node_modules/react-redux/es/components/Provider.js","name":"./node_modules/react-redux/es/components/Provider.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./components/connectAdvanced":[{"id":"./node_modules/react-redux/es/components/connectAdvanced.js","name":"./node_modules/react-redux/es/components/connectAdvanced.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./connect/connect":[{"id":"./node_modules/react-redux/es/connect/connect.js","name":"./node_modules/react-redux/es/connect/connect.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./mapDispatchToProps":[{"id":"./node_modules/react-redux/es/connect/mapDispatchToProps.js","name":"./node_modules/react-redux/es/connect/mapDispatchToProps.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./mapStateToProps":[{"id":"./node_modules/react-redux/es/connect/mapStateToProps.js","name":"./node_modules/react-redux/es/connect/mapStateToProps.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./mergeProps":[{"id":"./node_modules/react-redux/es/connect/mergeProps.js","name":"./node_modules/react-redux/es/connect/mergeProps.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./selectorFactory":[{"id":"./node_modules/react-redux/es/connect/selectorFactory.js","name":"./node_modules/react-redux/es/connect/selectorFactory.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./verifySubselectors":[{"id":"./node_modules/react-redux/es/connect/verifySubselectors.js","name":"./node_modules/react-redux/es/connect/verifySubselectors.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./wrapMapToProps":[{"id":"./node_modules/react-redux/es/connect/wrapMapToProps.js","name":"./node_modules/react-redux/es/connect/wrapMapToProps.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-redux":[{"id":"./node_modules/react-redux/es/index.js","name":"./node_modules/react-redux/es/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"../utils/PropTypes":[{"id":"./node_modules/react-redux/es/utils/PropTypes.js","name":"./node_modules/react-redux/es/utils/PropTypes.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"../utils/Subscription":[{"id":"./node_modules/react-redux/es/utils/Subscription.js","name":"./node_modules/react-redux/es/utils/Subscription.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"../utils/shallowEqual":[{"id":"./node_modules/react-redux/es/utils/shallowEqual.js","name":"./node_modules/react-redux/es/utils/shallowEqual.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"../utils/verifyPlainObject":[{"id":"./node_modules/react-redux/es/utils/verifyPlainObject.js","name":"./node_modules/react-redux/es/utils/verifyPlainObject.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"../utils/warning":[{"id":"./node_modules/react-redux/es/utils/warning.js","name":"./node_modules/react-redux/es/utils/warning.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router-config":[{"id":"./node_modules/react-router-config/es/index.js","name":"./node_modules/react-router-config/es/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./matchRoutes":[{"id":"./node_modules/react-router-config/es/matchRoutes.js","name":"./node_modules/react-router-config/es/matchRoutes.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./renderRoutes":[{"id":"./node_modules/react-router-config/es/renderRoutes.js","name":"./node_modules/react-router-config/es/renderRoutes.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./BrowserRouter":[{"id":"./node_modules/react-router-dom/es/BrowserRouter.js","name":"./node_modules/react-router-dom/es/BrowserRouter.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./HashRouter":[{"id":"./node_modules/react-router-dom/es/HashRouter.js","name":"./node_modules/react-router-dom/es/HashRouter.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./Link":[{"id":"./node_modules/react-router-dom/es/Link.js","name":"./node_modules/react-router-dom/es/Link.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./MemoryRouter":[{"id":"./node_modules/react-router-dom/es/MemoryRouter.js","name":"./node_modules/react-router-dom/es/MemoryRouter.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./NavLink":[{"id":"./node_modules/react-router-dom/es/NavLink.js","name":"./node_modules/react-router-dom/es/NavLink.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./Prompt":[{"id":"./node_modules/react-router-dom/es/Prompt.js","name":"./node_modules/react-router-dom/es/Prompt.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./Redirect":[{"id":"./node_modules/react-router-dom/es/Redirect.js","name":"./node_modules/react-router-dom/es/Redirect.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./Route":[{"id":"./node_modules/react-router-dom/es/Route.js","name":"./node_modules/react-router-dom/es/Route.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./Router":[{"id":"./node_modules/react-router-dom/es/Router.js","name":"./node_modules/react-router-dom/es/Router.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./StaticRouter":[{"id":"./node_modules/react-router-dom/es/StaticRouter.js","name":"./node_modules/react-router-dom/es/StaticRouter.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./Switch":[{"id":"./node_modules/react-router-dom/es/Switch.js","name":"./node_modules/react-router-dom/es/Switch.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router-dom":[{"id":"./node_modules/react-router-dom/es/index.js","name":"./node_modules/react-router-dom/es/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./matchPath":[{"id":"./node_modules/react-router-dom/es/matchPath.js","name":"./node_modules/react-router-dom/es/matchPath.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./withRouter":[{"id":"./node_modules/react-router-dom/es/withRouter.js","name":"./node_modules/react-router-dom/es/withRouter.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./ConnectedRouter":[{"id":"./node_modules/react-router-redux/es/ConnectedRouter.js","name":"./node_modules/react-router-redux/es/ConnectedRouter.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./actions":[{"id":"./node_modules/react-router-redux/es/actions.js","name":"./node_modules/react-router-redux/es/actions.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router-redux":[{"id":"./node_modules/react-router-redux/es/index.js","name":"./node_modules/react-router-redux/es/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./middleware":[{"id":"./node_modules/react-router-redux/es/middleware.js","name":"./node_modules/react-router-redux/es/middleware.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./reducer":[{"id":"./node_modules/react-router-redux/es/reducer.js","name":"./node_modules/react-router-redux/es/reducer.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./selectors":[{"id":"./node_modules/react-router-redux/es/selectors.js","name":"./node_modules/react-router-redux/es/selectors.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/Route":[{"id":"./node_modules/react-router/Route.js","name":"./node_modules/react-router/Route.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/Router":[{"id":"./node_modules/react-router/Router.js","name":"./node_modules/react-router/Router.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/Switch":[{"id":"./node_modules/react-router/Switch.js","name":"./node_modules/react-router/Switch.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/es/MemoryRouter":[{"id":"./node_modules/react-router/es/MemoryRouter.js","name":"./node_modules/react-router/es/MemoryRouter.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/es/Prompt":[{"id":"./node_modules/react-router/es/Prompt.js","name":"./node_modules/react-router/es/Prompt.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/es/Redirect":[{"id":"./node_modules/react-router/es/Redirect.js","name":"./node_modules/react-router/es/Redirect.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/es/Route":[{"id":"./node_modules/react-router/es/Route.js","name":"./node_modules/react-router/es/Route.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/es/Router":[{"id":"./node_modules/react-router/es/Router.js","name":"./node_modules/react-router/es/Router.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/es/StaticRouter":[{"id":"./node_modules/react-router/es/StaticRouter.js","name":"./node_modules/react-router/es/StaticRouter.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/es/Switch":[{"id":"./node_modules/react-router/es/Switch.js","name":"./node_modules/react-router/es/Switch.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router":[{"id":"./node_modules/react-router/es/index.js","name":"./node_modules/react-router/es/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/es/matchPath":[{"id":"./node_modules/react-router/es/matchPath.js","name":"./node_modules/react-router/es/matchPath.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/es/withRouter":[{"id":"./node_modules/react-router/es/withRouter.js","name":"./node_modules/react-router/es/withRouter.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react-router/matchPath":[{"id":"./node_modules/react-router/matchPath.js","name":"./node_modules/react-router/matchPath.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./cjs/react.development.js":[{"id":"./node_modules/react/cjs/react.development.js","name":"./node_modules/react/cjs/react.development.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"react":[{"id":"./node_modules/react/index.js","name":"./node_modules/react/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./applyMiddleware":[{"id":"./node_modules/redux/es/applyMiddleware.js","name":"./node_modules/redux/es/applyMiddleware.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./bindActionCreators":[{"id":"./node_modules/redux/es/bindActionCreators.js","name":"./node_modules/redux/es/bindActionCreators.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./combineReducers":[{"id":"./node_modules/redux/es/combineReducers.js","name":"./node_modules/redux/es/combineReducers.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./compose":[{"id":"./node_modules/redux/es/compose.js","name":"./node_modules/redux/es/compose.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./createStore":[{"id":"./node_modules/redux/es/createStore.js","name":"./node_modules/redux/es/createStore.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"redux":[{"id":"./node_modules/redux/es/index.js","name":"./node_modules/redux/es/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./utils/warning":[{"id":"./node_modules/redux/es/utils/warning.js","name":"./node_modules/redux/es/utils/warning.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"resolve-pathname":[{"id":"./node_modules/resolve-pathname/index.js","name":"./node_modules/resolve-pathname/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"shallowequal":[{"id":"./node_modules/shallowequal/index.js","name":"./node_modules/shallowequal/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"sockjs-client/dist/sockjs":[{"id":"./node_modules/sockjs-client/dist/sockjs.js","name":"./node_modules/sockjs-client/dist/sockjs.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"strip-ansi":[{"id":"./node_modules/strip-ansi/index.js","name":"./node_modules/strip-ansi/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"symbol-observable":[{"id":"./node_modules/symbol-observable/es/index.js","name":"./node_modules/symbol-observable/es/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./ponyfill.js":[{"id":"./node_modules/symbol-observable/es/ponyfill.js","name":"./node_modules/symbol-observable/es/ponyfill.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"url":[{"id":"./node_modules/url/url.js","name":"./node_modules/url/url.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./util":[{"id":"./node_modules/url/util.js","name":"./node_modules/url/util.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"value-equal":[{"id":"./node_modules/value-equal/index.js","name":"./node_modules/value-equal/index.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"warning":[{"id":"./node_modules/warning/browser.js","name":"./node_modules/warning/browser.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"D:\\zhanghaiyang\\works\\github\\react-koa2-typescript-isomorphic\\node_modules\\webpack-dev-server\\client\\index.js?http://localhost:3001":[{"id":"./node_modules/webpack-dev-server/client/index.js?http://localhost:3001","name":"./node_modules/webpack-dev-server/client/index.js?http://localhost:3001","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./overlay":[{"id":"./node_modules/webpack-dev-server/client/overlay.js","name":"./node_modules/webpack-dev-server/client/overlay.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./socket":[{"id":"./node_modules/webpack-dev-server/client/socket.js","name":"./node_modules/webpack-dev-server/client/socket.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"!!webpack amd define":[{"id":"./node_modules/webpack/buildin/amd-define.js","name":"./node_modules/webpack/buildin/amd-define.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"!!webpack amd options":[{"id":"./node_modules/webpack/buildin/amd-options.js","name":"./node_modules/webpack/buildin/amd-options.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./../webpack/buildin/global.js":[{"id":"./node_modules/webpack/buildin/global.js","name":"./node_modules/webpack/buildin/global.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./../../webpack/buildin/harmony-module.js":[{"id":"./node_modules/webpack/buildin/harmony-module.js","name":"./node_modules/webpack/buildin/harmony-module.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./../../node_modules/webpack/buildin/module.js":[{"id":"./node_modules/webpack/buildin/module.js","name":"./node_modules/webpack/buildin/module.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"webpack/hot/dev-server":[{"id":"./node_modules/webpack/hot/dev-server.js","name":"./node_modules/webpack/hot/dev-server.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./emitter":[{"id":"./node_modules/webpack/hot/emitter.js","name":"./node_modules/webpack/hot/emitter.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./log-apply-result":[{"id":"./node_modules/webpack/hot/log-apply-result.js","name":"./node_modules/webpack/hot/log-apply-result.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}],"./log":[{"id":"./node_modules/webpack/hot/log.js","name":"./node_modules/webpack/hot/log.js","file":"vendors.77296b88a4e72b9b76e4.js","publicPath":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"}]};
+
+/***/ }),
+
+/***/ "./dist/webpack-chunks.json":
+/*!**********************************!*\
+  !*** ./dist/webpack-chunks.json ***!
+  \**********************************/
+/*! exports provided: javascript, styles, default */
+/***/ (function(module) {
+
+module.exports = {"javascript":{"index":"//127.0.0.1:3001/index.77296b88a4e72b9b76e4.js","manifest":"//127.0.0.1:3001/manifest.77296b88a4e72b9b76e4.js","vendors":"//127.0.0.1:3001/vendors.77296b88a4e72b9b76e4.js"},"styles":{"index":"//127.0.0.1:3001/index-fb17344e13b871b4fbe3.css"}};
+
+/***/ }),
+
 /***/ "./node_modules/webpack/buildin/module.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/module.js ***!
@@ -391,6 +457,109 @@ exports.default = _default;
 
 /***/ }),
 
+/***/ "./src/component/Html.jsx":
+/*!********************************!*\
+  !*** ./src/component/Html.jsx ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(/*! react */ "react");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _config = __webpack_require__(/*! ../../config */ "./config/index.js");
+
+var _config2 = _interopRequireDefault(_config);
+
+var _webpackChunks = __webpack_require__(/*! ../../dist/webpack-chunks.json */ "./dist/webpack-chunks.json");
+
+var _webpackChunks2 = _interopRequireDefault(_webpackChunks);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(function () {
+    var enterModule = __webpack_require__(/*! react-hot-loader */ "react-hot-loader").enterModule;
+
+    enterModule && enterModule(module);
+})();
+
+var assetsPath = _config2.default.assetsPath;
+
+
+console.log(assetsPath);
+
+var _default = function _default(_ref) {
+    var bundles = _ref.bundles,
+        content = _ref.content,
+        assets = _ref.assets;
+
+    var style = [];
+    if (_webpackChunks2.default && _webpackChunks2.default.styles) {
+        for (var key in _webpackChunks2.default.styles) {
+            var href = '' + _webpackChunks2.default.styles[key];
+            style.push(_react2.default.createElement('link', {
+                href: href,
+                key: key,
+                media: 'screen, projection',
+                rel: 'stylesheet',
+                type: 'text/css',
+                charSet: 'UTF-8'
+            }));
+        }
+    }
+
+    return _react2.default.createElement(
+        'html',
+        null,
+        _react2.default.createElement(
+            'head',
+            null,
+            style
+        ),
+        _react2.default.createElement(
+            'body',
+            null,
+            _react2.default.createElement('div', { id: 'root', dangerouslySetInnerHTML: { __html: content } }),
+            _webpackChunks2.default.javascript.manifest && _react2.default.createElement('script', { src: '' + _webpackChunks2.default.javascript.manifest }),
+            _webpackChunks2.default.javascript.vendors && _react2.default.createElement('script', { src: '' + _webpackChunks2.default.javascript.vendors }),
+            _webpackChunks2.default.javascript.index && _react2.default.createElement('script', { src: '' + _webpackChunks2.default.javascript.index }),
+            bundles && bundles.map(function (value) {
+                return value && _react2.default.createElement('script', { src: assetsPath + '/' + value.file });
+            })
+        )
+    );
+};
+
+exports.default = _default;
+;
+
+(function () {
+    var reactHotLoader = __webpack_require__(/*! react-hot-loader */ "react-hot-loader").default;
+
+    var leaveModule = __webpack_require__(/*! react-hot-loader */ "react-hot-loader").leaveModule;
+
+    if (!reactHotLoader) {
+        return;
+    }
+
+    reactHotLoader.register(assetsPath, 'assetsPath', 'D:/zhanghaiyang/works/github/react-koa2-typescript-isomorphic/src/component/Html.jsx');
+    reactHotLoader.register(_default, 'default', 'D:/zhanghaiyang/works/github/react-koa2-typescript-isomorphic/src/component/Html.jsx');
+    leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+
+/***/ }),
+
 /***/ "./src/component/head.css":
 /*!********************************!*\
   !*** ./src/component/head.css ***!
@@ -586,14 +755,6 @@ var _react = __webpack_require__(/*! react */ "react");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _main = __webpack_require__(/*! ../client/main */ "./src/client/main.jsx");
-
-var _main2 = _interopRequireDefault(_main);
-
-var _home = __webpack_require__(/*! ../client/home */ "./src/client/home.jsx");
-
-var _home2 = _interopRequireDefault(_home);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (function () {
@@ -633,20 +794,37 @@ var loading = function loading(_ref) {
         'loading'
     );
 };
-
-// const Main = Loadable({
-//     loader: () => import('./main'),
-//     loading,
-// })
-// const Home = Loadable({
-//     loader: () => import('./home'),
-//     loading,
-// });
-
+// import Main from '../client/main';
+// import Home from '../client/home';
+// import home from '../client/home';
+var Main = (0, _reactLoadable2.default)({
+    loader: function loader() {
+        return Promise.resolve(/*! import() */).then(function() { var module = __webpack_require__(/*! ../client/main */ "./src/client/main.jsx"); return typeof module === "object" && module && module.__esModule ? module : Object.assign({/* fake namespace object */}, typeof module === "object" && module, { "default": module }); });
+    },
+    modules: ['../client/main'],
+    webpack: function webpack() {
+        return [/*require.resolve*/(/*! ../client/main */ "./src/client/main.jsx")];
+    },
+    loading: loading
+});
+var Home = (0, _reactLoadable2.default)({
+    loader: function loader() {
+        return Promise.resolve(/*! import() */).then(function() { var module = __webpack_require__(/*! ../client/home */ "./src/client/home.jsx"); return typeof module === "object" && module && module.__esModule ? module : Object.assign({/* fake namespace object */}, typeof module === "object" && module, { "default": module }); });
+    },
+    modules: ['../client/home'],
+    webpack: function webpack() {
+        return [/*require.resolve*/(/*! ../client/home */ "./src/client/home.jsx")];
+    },
+    loading: loading
+});
 
 var About = (0, _reactLoadable2.default)({
     loader: function loader() {
         return Promise.resolve(/*! import() */).then(function() { var module = __webpack_require__(/*! ../client/about */ "./src/client/about.jsx"); return typeof module === "object" && module && module.__esModule ? module : Object.assign({/* fake namespace object */}, typeof module === "object" && module, { "default": module }); });
+    },
+    modules: ['../client/about'],
+    webpack: function webpack() {
+        return [/*require.resolve*/(/*! ../client/about */ "./src/client/about.jsx")];
     },
     loading: loading
 });
@@ -655,14 +833,18 @@ var AboutDetail = (0, _reactLoadable2.default)({
     loader: function loader() {
         return Promise.resolve(/*! import() */).then(function() { var module = __webpack_require__(/*! ../client/aboutDetail */ "./src/client/aboutDetail.jsx"); return typeof module === "object" && module && module.__esModule ? module : Object.assign({/* fake namespace object */}, typeof module === "object" && module, { "default": module }); });
     },
+    modules: ['../client/aboutDetail'],
+    webpack: function webpack() {
+        return [/*require.resolve*/(/*! ../client/aboutDetail */ "./src/client/aboutDetail.jsx")];
+    },
     loading: loading
 });
 
 var routes = [{
-    component: _main2.default,
+    component: Main,
     routes: [{
         path: '/',
-        component: _home2.default,
+        component: Home,
         loadData: function loadData() {
             return 1;
         },
@@ -677,7 +859,7 @@ var routes = [{
     }]
 }, {
     path: '/x',
-    component: _home2.default
+    component: Home
 }];
 
 var _default = routes;
@@ -694,6 +876,8 @@ exports.default = _default;
     }
 
     reactHotLoader.register(loading, 'loading', 'D:/zhanghaiyang/works/github/react-koa2-typescript-isomorphic/src/routes/index.js');
+    reactHotLoader.register(Main, 'Main', 'D:/zhanghaiyang/works/github/react-koa2-typescript-isomorphic/src/routes/index.js');
+    reactHotLoader.register(Home, 'Home', 'D:/zhanghaiyang/works/github/react-koa2-typescript-isomorphic/src/routes/index.js');
     reactHotLoader.register(About, 'About', 'D:/zhanghaiyang/works/github/react-koa2-typescript-isomorphic/src/routes/index.js');
     reactHotLoader.register(AboutDetail, 'AboutDetail', 'D:/zhanghaiyang/works/github/react-koa2-typescript-isomorphic/src/routes/index.js');
     reactHotLoader.register(routes, 'routes', 'D:/zhanghaiyang/works/github/react-koa2-typescript-isomorphic/src/routes/index.js');
@@ -778,6 +962,16 @@ var _reactLoadable = __webpack_require__(/*! react-loadable */ "react-loadable")
 
 var _reactLoadable2 = _interopRequireDefault(_reactLoadable);
 
+var _webpack = __webpack_require__(/*! react-loadable/webpack */ "react-loadable/webpack");
+
+var _reactLoadable3 = __webpack_require__(/*! ../../dist/react-loadable.json */ "./dist/react-loadable.json");
+
+var _reactLoadable4 = _interopRequireDefault(_reactLoadable3);
+
+var _Html = __webpack_require__(/*! ../component/Html */ "./src/component/Html.jsx");
+
+var _Html2 = _interopRequireDefault(_Html);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (function () {
@@ -786,61 +980,85 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     enterModule && enterModule(module);
 })();
 
-var _default = function _default() {
-    var app = new _koa2.default();
-    app.use(function () {
-        var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(ctx) {
-            var originalUrl, history, _asyncMatchRoutes, components, store, modules, component, content;
+var _default = function () {
+    var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
+        var app;
+        return _regenerator2.default.wrap(function _callee2$(_context2) {
+            while (1) {
+                switch (_context2.prev = _context2.next) {
+                    case 0:
+                        app = new _koa2.default();
 
-            return _regenerator2.default.wrap(function _callee$(_context) {
-                while (1) {
-                    switch (_context.prev = _context.next) {
-                        case 0:
-                            originalUrl = ctx.originalUrl;
-                            history = (0, _createMemoryHistory2.default)({ initialEntries: [originalUrl] });
-                            _asyncMatchRoutes = (0, _asyncMatchRoutes3.default)(_routes4.default, originalUrl), components = _asyncMatchRoutes.components;
-                            store = (0, _createStore2.default)({ history: history });
-                            modules = [];
-                            component = _react2.default.createElement(
-                                _reactLoadable2.default.Capture,
-                                { report: function report(moduleName) {
-                                        return modules.push(moduleName);
-                                    } },
-                                _react2.default.createElement(
-                                    _provider2.default,
-                                    { store: store },
-                                    _react2.default.createElement(
-                                        _reactRouterRedux.ConnectedRouter,
-                                        { history: history },
-                                        _react2.default.createElement(
-                                            _reactRouterDom.StaticRouter,
-                                            { location: originalUrl },
-                                            (0, _reactRouterConfig.renderRoutes)(_routes4.default)
-                                        )
-                                    )
-                                )
-                            );
-                            content = _server2.default.renderToString(component);
+                        app.use(function () {
+                            var _ref2 = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(ctx) {
+                                var originalUrl, history, _asyncMatchRoutes, components, store, modules, component, content, bundles;
 
-                            console.log(modules);
-                            ctx.body = content;
+                                return _regenerator2.default.wrap(function _callee$(_context) {
+                                    while (1) {
+                                        switch (_context.prev = _context.next) {
+                                            case 0:
+                                                originalUrl = ctx.originalUrl;
+                                                history = (0, _createMemoryHistory2.default)({ initialEntries: [originalUrl] });
+                                                _asyncMatchRoutes = (0, _asyncMatchRoutes3.default)(_routes4.default, originalUrl), components = _asyncMatchRoutes.components;
+                                                store = (0, _createStore2.default)({ history: history });
+                                                modules = [];
+                                                component = _react2.default.createElement(
+                                                    _reactLoadable2.default.Capture,
+                                                    { report: function report(moduleName) {
+                                                            return modules.push(moduleName);
+                                                        } },
+                                                    _react2.default.createElement(
+                                                        _provider2.default,
+                                                        { store: store },
+                                                        _react2.default.createElement(
+                                                            _reactRouterRedux.ConnectedRouter,
+                                                            { history: history },
+                                                            _react2.default.createElement(
+                                                                _reactRouterDom.StaticRouter,
+                                                                { location: originalUrl },
+                                                                (0, _reactRouterConfig.renderRoutes)(_routes4.default)
+                                                            )
+                                                        )
+                                                    )
+                                                );
+                                                content = _server2.default.renderToString(component);
+                                                bundles = (0, _webpack.getBundles)(_reactLoadable4.default, modules);
 
-                        case 9:
-                        case 'end':
-                            return _context.stop();
-                    }
+                                                console.log(bundles);
+                                                ctx.body = _server2.default.renderToString(_react2.default.createElement(_Html2.default, { bundles: bundles, content: content }));
+
+                                            case 10:
+                                            case 'end':
+                                                return _context.stop();
+                                        }
+                                    }
+                                }, _callee, undefined);
+                            }));
+
+                            return function (_x) {
+                                return _ref2.apply(this, arguments);
+                            };
+                        }());
+                        _context2.next = 4;
+                        return _reactLoadable2.default.preloadAll();
+
+                    case 4:
+                        app.listen(3000, function () {
+                            console.log('Running on http://localhost:3000/');
+                        });
+
+                    case 5:
+                    case 'end':
+                        return _context2.stop();
                 }
-            }, _callee, undefined);
-        }));
+            }
+        }, _callee2, undefined);
+    }));
 
-        return function (_x) {
-            return _ref.apply(this, arguments);
-        };
-    }());
-    app.listen(3000, function () {
-        console.info('server is start port: 3000');
-    });
-};
+    return function _default() {
+        return _ref.apply(this, arguments);
+    };
+}();
 
 exports.default = _default;
 ;
@@ -1303,6 +1521,17 @@ module.exports = require("react-hot-loader");
 /***/ (function(module, exports) {
 
 module.exports = require("react-loadable");
+
+/***/ }),
+
+/***/ "react-loadable/webpack":
+/*!*****************************************!*\
+  !*** external "react-loadable/webpack" ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-loadable/webpack");
 
 /***/ }),
 

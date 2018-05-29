@@ -16,8 +16,12 @@ import Provider from '../component/provider';
 import { ConnectedRouter } from 'react-router-redux';
 import createMemoryHistory from 'history/createMemoryHistory';
 import Loadable from 'react-loadable';
+import { getBundles } from 'react-loadable/webpack'
+import loadablejson from '../../dist/react-loadable.json';
+import Html from '../component/Html'; 
 
-export default () => {
+
+export default async () => {
     const app = new Koa();
     app.use(async (ctx) => {
         const {
@@ -40,12 +44,15 @@ export default () => {
             </Loadable.Capture>
         );
         const content = ReactDOMServer.renderToString(component);
-        console.log(modules)
-        ctx.body = content;
+        const bundles = getBundles(loadablejson, modules);
+        console.log(bundles)
+        ctx.body = ReactDOMServer.renderToString(<Html bundles={bundles} content={content} />)
     });
+    await Loadable.preloadAll();
     app.listen(3000, () => {
-        console.info('server is start port: 3000')
-    })
+        console.log('Running on http://localhost:3000/');
+    });
+   
 }
 
 

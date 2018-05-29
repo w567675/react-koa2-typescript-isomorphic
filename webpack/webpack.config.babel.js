@@ -91,7 +91,6 @@ export default {
 		filename: '[name].[hash].js',
 		chunkFilename: '[name].[hash].js',
 		path: path.resolve(process.cwd(), 'dist'),
-		publicPath: '/',
 	},
 	devtool: 'cheap-module-eval-source-map',
 	mode: 'development'

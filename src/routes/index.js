@@ -11,17 +11,17 @@ const loading = ({ error, pastDelay, retry }) => {
     }
     return <div>loading</div>
 }
-import Main from '../client/main';
-import Home from '../client/home';
-import home from '../client/home';
-// const Main = Loadable({
-//     loader: () => import('./main'),
-//     loading,
-// })
-// const Home = Loadable({
-//     loader: () => import('./home'),
-//     loading,
-// });
+// import Main from '../client/main';
+// import Home from '../client/home';
+// import home from '../client/home';
+const Main = Loadable({
+    loader: () => import('../client/main'),
+    loading,
+})
+const Home = Loadable({
+    loader: () => import('../client/home'),
+    loading,
+});
 
 
 const About = Loadable({
@@ -42,7 +42,7 @@ const routes = [
                 path: '/',
                 component: Home,
                 loadData: () => 1,
-                exact: true,
+                exact: true
             },
             {
                 path: '/about',
