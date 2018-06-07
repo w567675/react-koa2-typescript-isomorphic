@@ -5,7 +5,6 @@ import createBrowserHistory from 'history/createBrowserHistory';
 import { ConnectedRouter} from 'react-router-redux';
 import Provider from '../component/provider';
 import createStore from '../redux/createStore';
-import './about.css';
 const history = createBrowserHistory();
 const store = createStore({history});
 render(

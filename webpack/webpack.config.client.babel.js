@@ -1,5 +1,5 @@
 import { client } from 'universal-webpack/config'
-import settings from './universal-webpack-settings'
+import settings from './universal-webpack-settings.json'
 import configuration from './webpack.config.babel'
 
 const config =  client(configuration, settings, { development: false, useMiniCssExtractPlugin: true })
