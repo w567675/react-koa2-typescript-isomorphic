@@ -7,7 +7,6 @@ import views from 'koa-views';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
-import router from './routes';
 import { renderRoutes } from 'react-router-config';
 import asyncMatchRoutes from '../util/asyncMatchRoutes';
 import routes from '../routes';
