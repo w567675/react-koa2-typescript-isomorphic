@@ -23,8 +23,6 @@ import Html from '../component/Html';
 import webpackConfig from '../../webpack/webpack.config.server.babel';
 import webpack from 'webpack';
 
-console.log(config)
-
 const compile = webpack(webpackConfig);
 
 export default async () => {

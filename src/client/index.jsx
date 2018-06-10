@@ -7,6 +7,8 @@ import Provider from '../component/provider';
 import createStore from '../redux/createStore';
 const history = createBrowserHistory();
 const store = createStore({history});
+
+import './about.css';
 render(
     <Provider store={store}>
         <ConnectedRouter history={history}>
