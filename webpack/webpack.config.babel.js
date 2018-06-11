@@ -2,7 +2,7 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import { ReactLoadablePlugin } from 'react-loadable/webpack';
-import WebpackAssets from './plugins/webpack-assets';
+import WebpackChunkAssets from './plugins/webpack-chunk-assets';
 export default {
 	module: {
 		rules: [
@@ -41,7 +41,9 @@ export default {
 			title: 'test',
 			template: 'src/template/index.html',
 		}),
-		new WebpackAssets(),
+		new WebpackChunkAssets({
+			filename: './xxx.json'
+		}),
 		new MiniCssExtractPlugin({
 			filename: "[name].[chunkhash].css",
 			chunkFilename: "[id].[chunkhash].css"
