@@ -3,7 +3,25 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import { ReactLoadablePlugin } from 'react-loadable/webpack';
 import WebpackChunkAssets from './plugins/webpack-chunk-assets';
+import CleanWebpackPlugin from 'clean-webpack-plugin';
+import config from '../config'
+
+const {
+	assetsPath,
+	outPutDir,
+} = config;
 export default {
+	entry: {
+		index: './src/client/index.jsx',
+	},
+	output: {
+		filename: '[name].[hash].js',
+		chunkFilename: '[name].[hash].js',
+		path: outPutDir,
+		publicPath: assetsPath,
+	},
+	devtool: 'cheap-module-eval-source-map',
+	mode: 'development',
 	module: {
 		rules: [
 			{
@@ -37,13 +55,12 @@ export default {
 		extensions: ['.js', '.jsx', '.ts', '.tsx'],
 	},
 	plugins: [
+		new CleanWebpackPlugin([outPutDir]),
 		new HtmlWebpackPlugin({
 			title: 'test',
 			template: 'src/template/index.html',
 		}),
-		new WebpackChunkAssets({
-			filename: './xxx.json'
-		}),
+		new WebpackChunkAssets(),
 		new MiniCssExtractPlugin({
 			filename: "[name].[chunkhash].css",
 			chunkFilename: "[id].[chunkhash].css"
@@ -77,14 +94,4 @@ export default {
 			}
 		}
 	},
-	entry: {
-		index: './src/client/index.jsx',
-	},
-	output: {
-		filename: '[name].[hash].js',
-		chunkFilename: '[name].[hash].js',
-		path: path.resolve(process.cwd(), 'dist'),
-	},
-	devtool: 'cheap-module-eval-source-map',
-	mode: 'development'
 }

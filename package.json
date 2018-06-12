@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run client:dev & npm run server:dev:webpack",
+    "dev": "run-p client:dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "testdev2": "webpack-dev-server --hot --inline --config ./webpack/webpack.config.client.babel.js --port 3000 --colors --display-error-details",
     "client:dev": "webpack-dev-server --hot --inline --config ./webpack/webpack.config.babel.js --port 3001 --colors --display-error-details",
-    "server:dev": "run-p server:dev:webpack server:dev:start",
-    "server:dev:webpack": "webpack --watch --config ./webpack/webpack.config.server.babel.js --colors --display-error-details",
+    "server:dev": "run-p server:dev:webpack",
+    "server:dev:webpack": "webpack --watch --config ./webpack/webpack.config.server.base.babel.js --colors --display-error-details",
     "server:dev:start": "nodemon ./webpack/start.server.js --exec babel-node --watch ./dist/server",
+    "pro": "run-s client:pro server:pro:webpack",
+    "client:pro": "webpack --inline --config ./webpack/webpack.config.babel.js --colors --display-error-details",
+    "server:pro:webpack": "webpack --config ./webpack/webpack.config.server.base.babel.js --colors --display-error-details",
     "prepare-server-build": "universal-webpack --settings ./webpack/universal-webpack-settings.json prepare"
   },
   "author": "",
@@ -26,6 +29,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.19",
     "cross-env": "^5.1.1",
     "ejs": "^2.5.7",
     "file-loader": "^1.1.11",
@@ -57,7 +61,8 @@
     "url-loader": "^1.0.1",
     "webpack-assets-info-plugin": "^1.0.2",
     "webpack-chunk-manifest-plugin": "^3.0.2",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.1.4",
+    "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
     "@types/koa": "^2.0.42",

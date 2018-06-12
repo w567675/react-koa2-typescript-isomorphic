@@ -1,26 +1,30 @@
 import path from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import MiniCssExtractPlugin from 'mini-css-extract-plugin';
-
-
+import nodeExternals  from 'webpack-node-externals';
+import config from '../config'
+const {
+	outPutDir,
+} = config;
 export default {
+	target: "node",
+	externals: [nodeExternals()],
+	entry: {
+		server: './src/server/index.js',
+	},
+	output: {
+		filename: '[name].[hash].js',
+		path: path.resolve(process.cwd(), 'dist'),
+	},
 	module: {
 		rules: [
 			{
 				test: /\.jsx?$/,
 				exclude: /node_modules/,
 				loader: 'babel-loader',
-				options: {
-
-				}
 			},
 			{
 				test: /\.css$/,
-				 use: [{
-                    loader: "style-loader"
-                }, {
-                    loader: "css-loader",
-                },]
+				exclude: /node_modules/,
+				loader: 'css-loader/locals'
 			},
 			{
 				test: /\.(jpeg|jpg|png|gif)$/,
@@ -35,22 +39,10 @@ export default {
 	resolve: {
 		extensions: ['.js', '.jsx', '.ts', '.tsx'],
 	},
-	plugins: [
-		
-		// new MiniCssExtractPlugin({
-		// 	filename: "[name].[chunkhash].css",
-		// 	chunkFilename: "[id].[chunkhash].css"
-		// }),
-		
-		// webpackisomorphicToolsPlugin.development(),
-		// assetsPluginInstance,
-	],
 	output: {
-		filename: '[name].[hash].js',
-		chunkFilename: '[name].[hash].js',
-		path: path.resolve(process.cwd(), 'dist'),
-		publicPath: '/',
+		filename: '[name].js',
+		path: outPutDir,
 	},
-	devtool: 'cheap-module-eval-source-map',
+	devtool: 'source-map',
 	mode: 'development'
 }

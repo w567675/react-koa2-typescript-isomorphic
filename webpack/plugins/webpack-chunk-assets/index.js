@@ -1,13 +1,13 @@
 import path from 'path';
 import fsExtra from 'fs-extra';
 
-function WebpackChunk (options)  {
+function WebpackChunk (options = {})  {
     this.options = options;
 }
 
 WebpackChunk.prototype.apply = function (compiler) {
     const {
-        filename,
+        filename = '',
     } = this.options;
     compiler.plugin('done', function (compilation) {
         try {

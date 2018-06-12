@@ -1,6 +1,6 @@
 import React from 'react';
 import config from '../../config';
-import webpackChunks from '../../dist/webpack-chunks.json';
+import webpackChunks from '../../dist/webpack-chunk-assets.json';
 const {
     assetsPath,
 } = config;
