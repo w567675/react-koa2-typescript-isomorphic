@@ -4,17 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "run-p client:dev",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "testdev2": "webpack-dev-server --hot --inline --config ./webpack/webpack.config.client.babel.js --port 3000 --colors --display-error-details",
-    "client:dev": "webpack-dev-server --hot --inline --config ./webpack/webpack.config.babel.js --port 3001 --colors --display-error-details",
-    "server:dev": "run-p server:dev:webpack",
+    "dev": "run-p client:dev server:dev",
+    "client:dev": "webpack-dev-server --hot --config ./webpack/webpack.config.babel.js --port 3001 --colors --display-error-details",
+    "server:dev": "run-p server:dev:webpack server:dev:start",
     "server:dev:webpack": "webpack --watch --config ./webpack/webpack.config.server.base.babel.js --colors --display-error-details",
-    "server:dev:start": "nodemon ./webpack/start.server.js --exec babel-node --watch ./dist/server",
-    "pro": "run-s client:pro server:pro:webpack",
+    "server:dev:start": "nodemon ./dist/server ",
+    "start": "run-s client:pro server:pro",
     "client:pro": "webpack --inline --config ./webpack/webpack.config.babel.js --colors --display-error-details",
+    "server:pro": "run-s server:pro:webpack server:pro:start",
     "server:pro:webpack": "webpack --config ./webpack/webpack.config.server.base.babel.js --colors --display-error-details",
-    "prepare-server-build": "universal-webpack --settings ./webpack/universal-webpack-settings.json prepare"
+    "server:pro:start": "node ./dist/server",
+
+
+    "prepare-server-build": "universal-webpack --settings ./webpack/universal-webpack-settings.json prepare",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testdev2": "webpack-dev-server --hot --inline --config ./webpack/webpack.config.client.babel.js --port 3000 --colors --display-error-details"
   },
   "author": "",
   "license": "ISC",
