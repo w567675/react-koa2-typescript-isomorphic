@@ -25,7 +25,7 @@ import Html from '../component/Html';
 
 // const compile = webpack(webpackConfig);
 
-const start = async () => {
+export default async () => {
     const app = new Koa();
     // app.use(devMiddleware(compile, {
     //     // display no info to console (only warnings and errors)
@@ -95,7 +95,5 @@ const start = async () => {
     });
 
 }
-
-start();
 
 

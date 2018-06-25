@@ -1,10 +1,10 @@
 import React from 'react';
-import config from '../../config';
-import webpackChunks from '../../dist/webpack-chunk-assets.json';
+import config from '../../../webpack/config';
+// import webpackChunks from '../../dist/webpack-chunk-assets.json';
 const {
     assetsPath,
 } = config;
-
+const webpackChunks = {};
 console.log(assetsPath)
 export default ({ bundles, content, assets }) => {
     var style = [];
