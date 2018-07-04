@@ -1,16 +1,13 @@
 import React from 'react';
-import config from '../../../webpack/config';
-// import webpackChunks from '../../dist/webpack-chunk-assets.json';
+import config from '../../webpack/config';
 const {
     assetsPath,
 } = config;
-const webpackChunks = {};
-console.log(assetsPath)
-export default ({ bundles, content, assets }) => {
+export default ({ bundles, content, chunkAssetsJson }) => {
     var style = [];
-    if(webpackChunks && webpackChunks.styles) {
-        for(let key in webpackChunks.styles) {
-            var href = `${webpackChunks.styles[key]}`
+    if(chunkAssetsJson && chunkAssetsJson.styles) {
+        for(let key in chunkAssetsJson.styles) {
+            var href = `${chunkAssetsJson.styles[key]}`
             style.push(
                 <link
                     href={href}
@@ -34,13 +31,13 @@ export default ({ bundles, content, assets }) => {
             <body>
                 <div id="root" dangerouslySetInnerHTML={{__html:content}} />
                 {
-                    webpackChunks.javascript.manifest &&<script src={`${webpackChunks.javascript.manifest}`}></script>
+                    chunkAssetsJson.javascript.manifest &&<script src={`${chunkAssetsJson.javascript.manifest}`}></script>
                 }
                 {
-                    webpackChunks.javascript.vendors &&<script src={`${webpackChunks.javascript.vendors}`}></script>
+                    chunkAssetsJson.javascript.vendors &&<script src={`${chunkAssetsJson.javascript.vendors}`}></script>
                 }
                 {
-                    webpackChunks.javascript.index &&<script src={`${webpackChunks.javascript.index}`}></script>
+                    chunkAssetsJson.javascript.index &&<script src={`${chunkAssetsJson.javascript.index}`}></script>
                 }
                 {
                     bundles && bundles.map(value => value && <script src={`${assetsPath}/${value.file}`}></script> )

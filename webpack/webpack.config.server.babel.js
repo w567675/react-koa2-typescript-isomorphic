@@ -1,6 +1,6 @@
 import path from 'path';
 import nodeExternals  from 'webpack-node-externals';
-import config from '../config'
+import config from './config'
 const {
 	outPutDir,
 } = config;
@@ -42,6 +42,7 @@ export default {
 	output: {
 		filename: '[name].js',
 		path: outPutDir,
+		libraryTarget: "commonjs2"
 	},
 	devtool: 'source-map',
 	mode: 'development'

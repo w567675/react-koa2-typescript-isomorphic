@@ -1,10 +1,10 @@
 const fs = require('fs');
 
-export default (path) => {
+module.exports = (path) => {
     return new Promise((resolve, reject) => {
         const tickInterval = 300;
 
-        const messageTimer = 0;
+        let messageTimer = 0;
 
         const messageInterVal = 2000;
 
@@ -23,7 +23,7 @@ export default (path) => {
                     return false;
                 }
 
-                return true;
+                return contents;
             },
             tickInterval,
             resolve,
@@ -44,7 +44,7 @@ export default (path) => {
 const tick = (checkCondtion, time, done, notDoneYet) => {
     checkCondtion().then((result) => {
         if (result) {
-            return done();
+            return done(result);
         }
         notDoneYet();
 

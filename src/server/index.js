@@ -16,7 +16,6 @@ import { ConnectedRouter } from 'react-router-redux';
 import createMemoryHistory from 'history/createMemoryHistory';
 import Loadable from 'react-loadable';
 import { getBundles } from 'react-loadable/webpack'
-// import loadablejson from '../../dist/react-loadable.json';
 // import { devMiddleware, hotMiddleware } from 'koa-webpack-middleware';
 import Html from '../component/Html';
 
@@ -25,7 +24,10 @@ import Html from '../component/Html';
 
 // const compile = webpack(webpackConfig);
 
-const start = async () => {
+export default async ({
+    loadableJson,
+    chunkAssetsJson,
+}) => {
     const app = new Koa();
     // app.use(devMiddleware(compile, {
     //     // display no info to console (only warnings and errors)
@@ -84,18 +86,14 @@ const start = async () => {
             </Loadable.Capture>
         );
         const content = ReactDOMServer.renderToString(component);
-        // const bundles = getBundles(loadablejson, modules);
-        const bundles = [];
+        const bundles = getBundles(loadableJson, modules);
         console.log(bundles)
-        ctx.body = ReactDOMServer.renderToString(<Html bundles={bundles} content={content} />)
+        ctx.body = ReactDOMServer.renderToString(<Html bundles={bundles} content={content} chunkAssetsJson={chunkAssetsJson} />)
     });
     // await Loadable.preloadAll();
     app.listen(3000, () => {
         console.log('Running on http://localhost:3000/');
     });
-
 }
-
-start();
 
 

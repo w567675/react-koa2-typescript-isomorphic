@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "run-p client:dev server:dev",
     "client:dev": "webpack-dev-server --hot --config ./webpack/webpack.config.babel.js --port 3001 --colors --display-error-details",
-    "server:dev": "run-s server:dev:webpack server:dev:start",
+    "server:dev": "run-p server:dev:webpack server:dev:start",
     "server:dev:webpack": "webpack --watch --config ./webpack/webpack.config.server.babel.js --colors --display-error-details",
-    "server:dev:start": "nodemon ./dist/server ",
+    "server:dev:start": "nodemon ./bin/server.js ",
     "start": "run-s client:pro server:pro",
     "client:pro": "webpack --inline --config ./webpack/webpack.config.babel.js --colors --display-error-details",
     "server:pro": "run-s server:pro:webpack server:pro:start",

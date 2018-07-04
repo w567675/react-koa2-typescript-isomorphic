@@ -4,7 +4,7 @@ import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import { ReactLoadablePlugin } from 'react-loadable/webpack';
 import WebpackChunkAssets from './plugins/webpack-chunk-assets';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
-import config from '../config'
+import config from './config'
 
 const {
 	assetsPath,
