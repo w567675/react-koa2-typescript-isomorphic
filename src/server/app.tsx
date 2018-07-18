@@ -8,17 +8,17 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { renderRoutes } from 'react-router-config';
-import asyncMatchRoutes from '../util/asyncMatchRoutes';
+import asyncMatchRoutes from '../common/util/asyncMatchRoutes';
 import routes from '../routes';
-import createStore from '../redux/createStore';
-import Provider from '../component/provider';
+import createStore from '../common/redux/createStore';
+import Provider from '../client/component/provider';
 import { ConnectedRouter } from 'react-router-redux';
 import createMemoryHistory from 'history/createMemoryHistory';
 import Loadable from 'react-loadable';
 import { getBundles } from 'react-loadable/webpack'
 // import loadablejson from '../../dist/react-loadable.json';
 // import { devMiddleware, hotMiddleware } from 'koa-webpack-middleware';
-import Html from '../component/Html';
+import Html from '../client/component/Html';
 
 // import webpackConfig from '../../webpack/webpack.config.server.babel';
 // import webpack from 'webpack';

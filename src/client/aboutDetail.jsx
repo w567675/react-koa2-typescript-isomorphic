@@ -5,7 +5,7 @@ import x from '../static/test.jpg';
 export default () => {
     return (
         <div>
-            aboutDetail
+            aboutDetail3332323222
             <img src={x} alt="x"/>
         </div>
     )

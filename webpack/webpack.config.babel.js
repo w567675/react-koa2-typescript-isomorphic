@@ -55,7 +55,7 @@ export default {
 		extensions: ['.js', '.jsx', '.ts', '.tsx'],
 	},
 	plugins: [
-		new CleanWebpackPlugin([outPutDir]),
+		new CleanWebpackPlugin(['dist'], {root: path.resolve(__dirname, '../') ,}),
 		new HtmlWebpackPlugin({
 			title: 'test',
 			template: 'src/template/index.html',
