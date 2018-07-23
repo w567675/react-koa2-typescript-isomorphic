@@ -7,20 +7,14 @@
         "noImplicitAny": true,
         "moduleResolution": "node",
         "sourceMap": true,
-        "outDir": "dist/server",
+        "outDir": "dist/client",
         "jsx": "react",
         "lib": [
             "es2015"
-        ],
-        "baseUrl": "."
-        // "paths": {
-        //     "*": [
-        //         "node_modules/*",
-        //         "src/typings/*"
-        //     ]
-        // }
+        ]
     },
     "include": [
-        "src/server/app.tsx"
+        "src/client/**/*",
+        "src/common/**/*"
     ]
 }

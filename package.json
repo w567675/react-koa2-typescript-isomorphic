@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "run-p client:dev server:dev",
-    "client:dev": "webpack-dev-server --hot --config ./webpack/webpack.config.babel.js --port 3001 --colors --display-error-details",
+    "client:dev": "webpack-dev-server --hot --config ./webpack/webpack.config.client.babel.js --port 3001 --colors --display-error-details",
     "server:dev": "run-p server:dev:webpack server:dev:start",
     "server:dev:webpack": "webpack --watch --config ./webpack/webpack.config.server.babel.js --colors --display-error-details",
     "server:dev:start": "nodemon ./bin/server.js ",
@@ -62,6 +62,7 @@
     "react-router-redux": "^5.0.0-alpha.9",
     "redial": "^0.5.0",
     "redux": "^3.7.2",
+    "ts-loader": "^4.4.2",
     "typescript": "^2.9.2",
     "universal-webpack": "^0.6.5",
     "url-loader": "^1.0.1",

@@ -3,14 +3,14 @@ import { matchRoutes, MatchedRoute } from 'react-router-config';
 function getComponents(matchComponentsArray:MatchedRoute<{}>[]) {
   return matchComponentsArray
     .map(matchComponent => matchComponent.route.component)
-    .reduce(async (result, component) => {
+    .reduce(async (result: Promise<any[]>, component: any) => {
       if (component.preload) {
         const res = await component.preload();
         const ret = [...(await result), component, ...[].concat(res)];
         return ret;
       }
       return [...(await result), component];
-    }, []);
+    }, Promise.resolve([]));
 }
 
 function getParams(match:MatchedRoute<{}>[]) {

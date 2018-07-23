@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es2017",
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist/server",
+        "jsx": "react",
+        "lib": [
+            "es2015"
+        ]
+    },
+    "include": [
+        "src/server/app.tsx"
+    ]
+}

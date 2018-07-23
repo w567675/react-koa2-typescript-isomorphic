@@ -3,8 +3,8 @@ import { render, hydrate } from 'react-dom';
 import App from './app';
 import createBrowserHistory from 'history/createBrowserHistory';
 import { ConnectedRouter} from 'react-router-redux';
-import Provider from '../component/provider';
-import createStore from '../redux/createStore';
+import Provider from './component/provider';
+import createStore from '../common/redux/createStore';
 const history = createBrowserHistory();
 const store = createStore({history});
 
