@@ -4,20 +4,20 @@ import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import { ReactLoadablePlugin } from 'react-loadable/webpack';
 import WebpackChunkAssets from './plugins/webpack-chunk-assets';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
-import config from './config'
+import config from './config';
 
 const {
 	assetsPath,
-	outPutDir,
+	clientOutPutDir,
 } = config;
 export default {
 	entry: {
 		index: './src/client/index.jsx',
 	},
 	output: {
-		filename: '[name].[hash].js',
-		chunkFilename: '[name].[hash].js',
-		path: outPutDir,
+		filename: '[name].js',
+		chunkFilename: '[name].js',
+		path: clientOutPutDir,
 		publicPath: assetsPath,
 	},
 	devtool: 'cheap-module-eval-source-map',
@@ -60,7 +60,9 @@ export default {
 			title: 'test',
 			template: 'src/template/index.html',
 		}),
-		new WebpackChunkAssets(),
+		new WebpackChunkAssets({
+			filePath: './dist'
+		}),
 		new MiniCssExtractPlugin({
 			filename: "[name].[chunkhash].css",
 			chunkFilename: "[id].[chunkhash].css"

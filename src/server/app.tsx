@@ -25,7 +25,7 @@ import Html from '../client/component/Html';
 
 // const compile = webpack(webpackConfig);
 
-export default async () => {
+export default async ({chunkAssetsJson, loadableJson}) => {
     const app = new Koa();
     // app.use(devMiddleware(compile, {
     //     // display no info to console (only warnings and errors)
@@ -68,7 +68,7 @@ export default async () => {
             originalUrl
         } = ctx;
         const history = createMemoryHistory({ initialEntries: [originalUrl] });
-        const { components } = asyncMatchRoutes(routes, originalUrl);
+        const { components } = await asyncMatchRoutes(routes, originalUrl);
 
         const store = createStore({ history });
         const modules = [];
@@ -84,10 +84,8 @@ export default async () => {
             </Loadable.Capture>
         );
         const content = ReactDOMServer.renderToString(component);
-        // const bundles = getBundles(loadablejson, modules);
-        const bundles = [];
-        console.log(bundles)
-        ctx.body = ReactDOMServer.renderToString(<Html bundles={bundles} content={content} />)
+        const bundles = getBundles(loadableJson, modules);
+        ctx.body = ReactDOMServer.renderToString(<Html chunkAssetsJson={chunkAssetsJson} bundles={bundles} content={content} />)
     });
     // await Loadable.preloadAll();
     app.listen(3000, () => {

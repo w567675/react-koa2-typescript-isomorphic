@@ -10,13 +10,14 @@
     "server:dev:webpack": "webpack --watch --config ./webpack/webpack.config.server.babel.js --colors --display-error-details",
     "server:dev:start": "nodemon ./bin/server.js ",
     "start": "run-s client:pro server:pro",
-    "client:pro": "webpack --inline --config ./webpack/webpack.config.babel.js --colors --display-error-details",
+    "client:pro": "webpack --inline --config ./webpack/webpack.config.client.babel.js --colors --display-error-details",
     "server:pro": "run-s server:pro:webpack server:pro:start",
     "server:pro:webpack": "webpack --config ./webpack/webpack.config.server.babel.js --colors --display-error-details",
     "server:pro:start": "node ./dist/server",
     "prepare-server-build": "universal-webpack --settings ./webpack/universal-webpack-settings.json prepare",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "testdev2": "webpack-dev-server --hot --inline --config ./webpack/webpack.config.client.babel.js --port 3000 --colors --display-error-details"
+    "testdev2": "webpack-dev-server --hot --inline --config ./webpack/webpack.config.client.babel.js --port 3000 --colors --display-error-details",
+    "routes": "webpack --inline --config ./webpack/webpack.config.routers.babel.js --colors --display-error-details"
   },
   "author": "",
   "license": "ISC",

@@ -8,11 +8,12 @@ function WebpackChunk (options = {})  {
 WebpackChunk.prototype.apply = function (compiler) {
     const {
         filename = '',
+        filePath,
     } = this.options;
     compiler.plugin('done', function (compilation) {
         try {
             const stats = compilation.toJson();
-            const outputPath = stats.outputPath;
+            const outputPath = filePath || stats.outputPath;
             const assets = getAssets(stats.assetsByChunkName, stats.publicPath)
             fsExtra.outputFileSync(path.resolve(outputPath, filename ||'./webpack-chunk-assets.json'), JSON.stringify(assets))
         } catch (error) {
